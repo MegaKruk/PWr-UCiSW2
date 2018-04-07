@@ -1,0 +1,9 @@
+vhdtdtfi -lib work initPerm.vhd -prj DES -o initPerm.spl -module initPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e initPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.sym} 
+vhdtdtfi -lib work initPerm.vhd -prj DES -o initPerm.spl -module initPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e initPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.sym} 
+vhdtdtfi -lib work initPerm.vhd -prj DES -o initPerm.spl -module initPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e initPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.sym} 
+vhdtdtfi -prj DES -o "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhi" -module initPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work initPerm.vhd 
+vhdtdtfi -lib work initPerm.vhd -prj DES -o initPerm.spl -module initPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e initPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.sym} 

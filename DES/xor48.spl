@@ -1,0 +1,6 @@
+[Inputs]
+=myinput[0:47]=
+=key[0:47]=
+[Outputs]
+=myoutput[0:47]=
+[BiDir]

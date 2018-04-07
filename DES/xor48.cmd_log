@@ -1,0 +1,2 @@
+vhdtdtfi -lib work xor48.vhd -prj DES -o xor48.spl -module xor48 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e xor48.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.sym} 

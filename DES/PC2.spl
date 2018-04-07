@@ -1,0 +1,6 @@
+[Inputs]
+=leftinput[0:27]=
+=rightinput[0:27]=
+[Outputs]
+=output[0:47]=
+[BiDir]

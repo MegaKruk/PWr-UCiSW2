@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="constant">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2006-1-1T10:10:10</timestamp>
+    <attr value="Copy Of Symbol With Level: CXILINX" name="LEVEL" />
+    <attr value="FFFFFFFF" name="CValue">
+        <trait delete="all:0" />
+        <trait editname="all:1 sch:0" />
+        <trait valuetype="BitVector 32 Hexadecimal" />
+    </attr>
+    <pin polarity="Output" x="144" y="32" name="O" />
+    <graph>
+        <rect width="112" x="0" y="0" height="64" />
+        <attrtext style="alignment:CENTER;fontsize:28;fontname:Arial" attrname="SymbolName" x="56" y="-12" type="symbol" />
+        <line x2="112" y1="32" y2="32" x1="144" />
+        <attrtext style="alignment:CENTER;fontsize:20;fontname:Arial" attrname="CVALUE" x="56" y="32" type="symbol" />
+    </graph>
+</symbol>

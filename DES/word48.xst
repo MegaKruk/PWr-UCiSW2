@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xst"
+elaborate
+-ifn word48.prj
+-ifmt mixed

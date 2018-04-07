@@ -1,0 +1,2 @@
+vhdtdtfi -lib work PC1.vhd -prj DES -o PC1.spl -module PC1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PC1.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC1.sym} 

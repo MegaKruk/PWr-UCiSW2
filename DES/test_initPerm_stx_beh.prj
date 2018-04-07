@@ -1,0 +1,2 @@
+vhdl isim_temp "initPerm.vhd"
+vhdl isim_temp "test_initPerm.vhd"

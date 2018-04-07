@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sbox_5.vhd -prj DES -o sbox_5.spl -module sbox_5 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sbox_5.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.sym} 

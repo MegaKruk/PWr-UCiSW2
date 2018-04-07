@@ -1,0 +1,2 @@
+vhdl isim_temp "sbox_0.vhd"
+vhdl isim_temp "test_sbox.vhd"

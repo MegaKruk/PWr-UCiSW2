@@ -1,0 +1,8 @@
+vhdtdtfi -lib work revPerm.vhd -prj DES -o revPerm.spl -module revPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e revPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.sym} 
+vhdtdtfi -lib work revPerm.vhd -prj DES -o revPerm.spl -module revPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e revPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.sym} 
+vhdtdtfi -lib work revPerm.vhd -prj DES -o revPerm.spl -module revPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e revPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.sym} 
+vhdtdtfi -lib work revPerm.vhd -prj DES -o revPerm.spl -module revPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e revPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.sym} 

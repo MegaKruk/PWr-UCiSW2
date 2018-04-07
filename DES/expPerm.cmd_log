@@ -1,0 +1,2 @@
+vhdtdtfi -lib work expPerm.vhd -prj DES -o expPerm.spl -module expPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e expPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.sym} 

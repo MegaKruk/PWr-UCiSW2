@@ -1,0 +1,2 @@
+vhdl work "sumLR.vhd"
+vhdl work "test_sumLR.vhd"
