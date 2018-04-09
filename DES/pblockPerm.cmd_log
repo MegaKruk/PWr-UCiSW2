@@ -1,2 +1,2 @@
 vhdtdtfi -lib work pblockPerm.vhd -prj DES -o pblockPerm.spl -module pblockPerm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e pblockPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockPerm.sym} 
+spl2sym -intstyle ise -family spartan3e pblockPerm.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.sym} 

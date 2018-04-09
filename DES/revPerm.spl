@@ -2,5 +2,5 @@
 =leftinput[0:31]=
 =rightinput[0:31]=
 [Outputs]
-=output[0:63]=
+=myoutput[0:63]=
 [BiDir]

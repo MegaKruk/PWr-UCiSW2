@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_sumLR.vhd";
+static const char *ng0 = "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/test_sumLR.vhd";
 
 
 
@@ -42,24 +42,24 @@ static void work_a_3968536528_2372691052_p_0(char *t0)
     char *t15;
     char *t16;
 
-LAB0:    t1 = (t0 + 2512U);
+LAB0:    t1 = (t0 + 2672U);
     t2 = *((char **)t1);
     if (t2 == 0)
         goto LAB2;
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(73, ng0);
+LAB2:    xsi_set_current_line(75, ng0);
     t3 = (100 * 1000LL);
-    t2 = (t0 + 2320);
+    t2 = (t0 + 2480);
     xsi_process_wait(t2, t3);
 
 LAB6:    *((char **)t1) = &&LAB7;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(74, ng0);
-    t2 = (t0 + 4980);
-    t5 = (t0 + 2896);
+LAB4:    xsi_set_current_line(76, ng0);
+    t2 = (t0 + 5420);
+    t5 = (t0 + 3056);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
     t8 = (t7 + 56U);
@@ -67,26 +67,8 @@ LAB4:    xsi_set_current_line(74, ng0);
     memcpy(t9, t2, 32U);
     xsi_driver_first_trans_delta(t5, 0U, 32U, 0LL);
     t3 = (100 * 1000LL);
-    t10 = (t0 + 5012);
-    t12 = (t0 + 2896);
-    t13 = (t12 + 56U);
-    t14 = *((char **)t13);
-    t15 = (t14 + 56U);
-    t16 = *((char **)t15);
-    memcpy(t16, t10, 32U);
-    xsi_driver_subsequent_trans_delta(t12, 0U, 32U, t3);
-    xsi_set_current_line(75, ng0);
-    t2 = (t0 + 5044);
-    t5 = (t0 + 2960);
-    t6 = (t5 + 56U);
-    t7 = *((char **)t6);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    memcpy(t9, t2, 32U);
-    xsi_driver_first_trans_delta(t5, 0U, 32U, 0LL);
-    t3 = (100 * 1000LL);
-    t10 = (t0 + 5076);
-    t12 = (t0 + 2960);
+    t10 = (t0 + 5452);
+    t12 = (t0 + 3056);
     t13 = (t12 + 56U);
     t14 = *((char **)t13);
     t15 = (t14 + 56U);
@@ -94,6 +76,24 @@ LAB4:    xsi_set_current_line(74, ng0);
     memcpy(t16, t10, 32U);
     xsi_driver_subsequent_trans_delta(t12, 0U, 32U, t3);
     xsi_set_current_line(77, ng0);
+    t2 = (t0 + 5484);
+    t5 = (t0 + 3120);
+    t6 = (t5 + 56U);
+    t7 = *((char **)t6);
+    t8 = (t7 + 56U);
+    t9 = *((char **)t8);
+    memcpy(t9, t2, 32U);
+    xsi_driver_first_trans_delta(t5, 0U, 32U, 0LL);
+    t3 = (100 * 1000LL);
+    t10 = (t0 + 5516);
+    t12 = (t0 + 3120);
+    t13 = (t12 + 56U);
+    t14 = *((char **)t13);
+    t15 = (t14 + 56U);
+    t16 = *((char **)t15);
+    memcpy(t16, t10, 32U);
+    xsi_driver_subsequent_trans_delta(t12, 0U, 32U, t3);
+    xsi_set_current_line(79, ng0);
 
 LAB10:    *((char **)t1) = &&LAB11;
     goto LAB1;

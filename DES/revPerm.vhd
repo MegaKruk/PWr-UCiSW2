@@ -24,7 +24,7 @@ use ieee.std_logic_1164.all;
 entity revPerm  is 
 port( leftinput: in std_logic_vector(0 to 31);
       rightinput: in std_logic_vector(0 to 31);
-      output: out std_logic_vector(0 to 63));
+      myoutput: out std_logic_vector(0 to 63));
 end revPerm ;
 
 
@@ -53,6 +53,6 @@ type permArray is array(0 to 63) of integer range 0 to 63;
       myArray( i ) <= myMerge( perm( i ) );
     end generate;
 	 
-	 output <= myArray(0 to 63);
+	 myoutput <= myArray(0 to 63);
 
 end behavior;

@@ -2,3 +2,11 @@ vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/1
 spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.sym} 
 vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.sym} 
+vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.sym} 
+vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.sym} 
+vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.sym} 
+vhdtdtfi -lib work PC2.vhd -prj DES -o PC2.spl -module PC2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PC2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.sym} 

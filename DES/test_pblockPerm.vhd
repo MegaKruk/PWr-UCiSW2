@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   00:03:13 04/07/2018
+-- Create Date:   01:31:57 04/09/2018
 -- Design Name:   
--- Module Name:   C:/Users/Filip/Documents/workspace/ISE Projects/DES/test_pblockPerm.vhd
+-- Module Name:   C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/test_pblockPerm.vhd
 -- Project Name:  DES
 -- Target Device:  
 -- Tool versions:  
@@ -41,31 +41,17 @@ ARCHITECTURE behavior OF test_pblockPerm IS
  
     COMPONENT pblockPerm
     PORT(
-         input0 : IN  std_logic_vector(0 to 3);
-         input1 : IN  std_logic_vector(0 to 3);
-         input2 : IN  std_logic_vector(0 to 3);
-         input3 : IN  std_logic_vector(0 to 3);
-         input4 : IN  std_logic_vector(0 to 3);
-         input5 : IN  std_logic_vector(0 to 3);
-         input6 : IN  std_logic_vector(0 to 3);
-         input7 : IN  std_logic_vector(0 to 3);
-         output : OUT  std_logic_vector(0 to 31)
+         myinput : IN  std_logic_vector(0 to 31);
+         myoutput : OUT  std_logic_vector(0 to 31)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal input0 : std_logic_vector(0 to 3) := (others => '0');
-   signal input1 : std_logic_vector(0 to 3) := (others => '0');
-   signal input2 : std_logic_vector(0 to 3) := (others => '0');
-   signal input3 : std_logic_vector(0 to 3) := (others => '0');
-   signal input4 : std_logic_vector(0 to 3) := (others => '0');
-   signal input5 : std_logic_vector(0 to 3) := (others => '0');
-   signal input6 : std_logic_vector(0 to 3) := (others => '0');
-   signal input7 : std_logic_vector(0 to 3) := (others => '0');
+   signal myinput : std_logic_vector(0 to 31) := (others => '0');
 
  	--Outputs
-   signal output : std_logic_vector(0 to 31);
+   signal myoutput : std_logic_vector(0 to 31);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
@@ -73,15 +59,8 @@ BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: pblockPerm PORT MAP (
-          input0 => input0,
-          input1 => input1,
-          input2 => input2,
-          input3 => input3,
-          input4 => input4,
-          input5 => input5,
-          input6 => input6,
-          input7 => input7,
-          output => output
+          myinput => myinput,
+          myoutput => myoutput
         );
 
    -- Stimulus process
@@ -89,14 +68,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 100 ns;	
-		input0 <= x"F", x"2" after 100 ns;
-		input1 <= x"0", x"0" after 100 ns;
-		input2 <= x"0", x"0" after 100 ns;
-		input3 <= x"0", x"0" after 100 ns;
-		input4 <= x"0", x"0" after 100 ns;
-		input5 <= x"0", x"0" after 100 ns;
-		input6 <= x"0", x"0" after 100 ns;
-		input7 <= x"1", x"D" after 100 ns;
+		myinput <= x"C0000000", x"0000000C" after 100 ns;
 
       wait;
    end process;

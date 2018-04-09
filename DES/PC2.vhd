@@ -22,9 +22,9 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity PC2  is 
-port( leftinput: in std_logic_vector(0 to 27);
-      rightinput: in std_logic_vector(0 to 27);
-      output: out std_logic_vector(0 to 47));
+port( rightinput: in std_logic_vector(0 to 27);
+      leftinput: in std_logic_vector(0 to 27);
+      myoutput: out std_logic_vector(0 to 47));
 end PC2 ;
 
 
@@ -47,12 +47,12 @@ type permArray is array(0 to 47) of integer range 0 to 55;
   
   begin
     myMerge(0 to 27)  <= leftinput;
-	myMerge(28 to 55) <= rightinput;
+	 myMerge(28 to 55) <= rightinput;
 	 
     et0: for i in 0 to 47 generate
       myArray( i ) <= myMerge( perm( i ) );
     end generate;
 	 
-	 output <= myArray(0 to 47);
+	 myoutput <= myArray(0 to 47);
 
 end behavior;

@@ -1,12 +1,5 @@
 [Inputs]
-=input0[0:3]=
-=input1[0:3]=
-=input2[0:3]=
-=input3[0:3]=
-=input4[0:3]=
-=input5[0:3]=
-=input6[0:3]=
-=input7[0:3]=
+=myinput[0:31]=
 [Outputs]
-=output[0:31]=
+=myoutput[0:31]=
 [BiDir]

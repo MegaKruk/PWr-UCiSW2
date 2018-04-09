@@ -1,4 +1,4 @@
-V3 73
+V3 77
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd" 2018/04/07.00:14:32 P.20131013
 EN work/expPerm 1523052891 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd" \
@@ -14,27 +14,9 @@ AR work/initPerm/behavior 1523056627 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhd" \
       EN work/initPerm 1523056626
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockPerm.vhd" 2018/04/07.00:02:26 P.20131013
-EN work/pblockPerm 1523052159 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockPerm.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/pblockPerm/behavior 1523052160 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockPerm.vhd" \
-      EN work/pblockPerm 1523052159
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC1.vhd" 2018/04/07.00:46:15 P.20131013
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd" 2018/04/07.00:59:47 P.20131013
-EN work/PC2 1523055591 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/PC2/behavior 1523055592 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd" \
-      EN work/PC2 1523055591
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.vhd" 2018/04/06.00:31:29 P.20131013
-EN work/revPerm 1523055312 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/revPerm/behavior 1523055313 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.vhd" \
-      EN work/revPerm 1523055312
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd" 2018/04/07.22:47:07 P.20131013
 EN work/sboxes 1523134061 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd" \
@@ -108,12 +90,6 @@ AR work/schem/BEHAVIORAL 1522149604 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/schem.vhf" \
       EN work/schem 1522149603 CP sbox_0
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd" 2018/04/07.23:40:55 P.20131013
-EN work/sumLR 1523137258 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sumLR/Behavioral 1523137259 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd" \
-      EN work/sumLR 1523137258
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/word48.vhd" 2018/03/27.12:41:49 P.20131013
 EN work/word48 0 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/word48.vhd" \
@@ -128,6 +104,13 @@ EN work/xor48 1523056326 \
 AR work/xor48/Behavioral 1523056327 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd" \
       EN work/xor48 1523056326
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" 2018/04/09.01:31:06 P.20131013
+EN work/pblockPerm 1523230446 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/pblockPerm/behavior 1523230447 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" \
+      EN work/pblockPerm 1523230446
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" 2018/04/07.00:46:15 P.20131013
 EN work/PC1 1523228046 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" \
@@ -135,6 +118,20 @@ EN work/PC1 1523228046 \
 AR work/PC1/behavior 1523228047 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" \
       EN work/PC1 1523228046
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" 2018/04/09.16:12:34 P.20131013
+EN work/PC2 1523283355 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/PC2/behavior 1523283356 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" \
+      EN work/PC2 1523283355
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" 2018/04/09.14:34:39 P.20131013
+EN work/revPerm 1523277292 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/revPerm/behavior 1523277293 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" \
+      EN work/revPerm 1523277292
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" 2018/04/09.00:54:40 P.20131013
 EN work/rotL1 1523228083 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" \
@@ -149,3 +146,10 @@ EN work/rotL2 1523228464 \
 AR work/rotL2/Behavioral 1523228465 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" \
       EN work/rotL2 1523228464
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" 2018/04/09.15:39:32 P.20131013
+EN work/sumLR 1523281179 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sumLR/Behavioral 1523281180 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" \
+      EN work/sumLR 1523281179

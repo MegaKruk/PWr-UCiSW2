@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/test_rotL2_isim_beh.exe" -prj "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/test_rotL2_beh.prj" "work.test_rotL2" 
+-intstyle "ise" -incremental -o "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem_schem_sch_tb_isim_beh.exe" -prj "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem_schem_sch_tb_beh.prj" "work.schem_schem_sch_tb" 
