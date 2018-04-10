@@ -47,10 +47,10 @@ et0: for i in 0 to 25 generate
 			leftKey( i ) <= leftinput( i + 2 );
 			rightKey( i ) <= rightinput( i + 2 );
 		end generate;
-		leftKey( 27 ) <= leftinput( 0 );
-		rightKey( 27 ) <= rightinput( 0 );
-		leftKey( 26 ) <= leftinput( 1 );
-		rightKey( 26 ) <= rightinput( 1 );
+		leftKey( 27 ) <= leftinput( 1 );
+		rightKey( 27 ) <= rightinput( 1 );
+		leftKey( 26 ) <= leftinput( 0 );
+		rightKey( 26 ) <= rightinput( 0 );
 		
 		leftoutput <= leftKey(0 to 27);
 		rightoutput <= rightKey(0 to 27);

@@ -46,7 +46,7 @@ begin
 			--sum( i ) <= std_logic_vector(unsigned(leftinput( i )) + unsigned(rightinput( i )));
 		--end generate;
 		--sum <= std_logic_vector(unsigned(leftinput) + unsigned(rightinput));
-		rightoutput <= std_logic_vector(unsigned(leftinput) + unsigned(rightinput));
+		rightoutput <= leftinput xor rightinput;
 		leftoutput <= leftinput;
 
 end Behavioral;

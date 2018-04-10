@@ -17,21 +17,19 @@ Total CPU time to Xst completion: 0.16 secs
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/sumLR is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd".
-WARNING:HDLParsers:3607 - Unit work/sumLR/Behavioral is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd".
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" in Library work.
 Entity <sumlr> compiled.
 Entity <sumlr> (Architecture <behavioral>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> 
 
-Total memory usage is 272340 kilobytes
+Total memory usage is 272336 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -4,3 +4,7 @@ vhdtdtfi -lib work sumLR.vhd -prj DES -o sumLR.spl -module sumLR -template C:/Xi
 spl2sym -intstyle ise -family spartan3e sumLR.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.sym} 
 vhdtdtfi -lib work sumLR.vhd -prj DES -o sumLR.spl -module sumLR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e sumLR.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.sym} 
+vhdtdtfi -lib work sumLR.vhd -prj DES -o sumLR.spl -module sumLR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sumLR.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.sym} 
+vhdtdtfi -lib work sumLR.vhd -prj DES -o sumLR.spl -module sumLR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sumLR.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.sym} 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-04-04T22:33:21</DateModified>
+  <DateModified>2018-04-10T13:20:03</DateModified>
   <ModuleName>schem</ModuleName>
   <SummaryTimeStamp>2018-03-27T11:49:27</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Filip/Documents/workspace/ISE Projects/DES/iseconfig/schem.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Filip/Documents/workspace/ISE Projects/DES\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/iseconfig/schem.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES\</ImplementationReportsDirectory>
   <DateInitialized>2018-03-27T11:31:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

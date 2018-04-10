@@ -2593,7 +2593,7 @@ LAB0:    xsi_set_current_line(50, ng0);
 
 LAB3:    t1 = (t0 + 8056U);
     t2 = *((char **)t1);
-    t3 = (0 - 0);
+    t3 = (1 - 0);
     t4 = (t3 * 1);
     t5 = (1U * t4);
     t6 = (0 + t5);
@@ -2635,7 +2635,7 @@ LAB0:    xsi_set_current_line(51, ng0);
 
 LAB3:    t1 = (t0 + 7896U);
     t2 = *((char **)t1);
-    t3 = (0 - 0);
+    t3 = (1 - 0);
     t4 = (t3 * 1);
     t5 = (1U * t4);
     t6 = (0 + t5);
@@ -2677,7 +2677,7 @@ LAB0:    xsi_set_current_line(52, ng0);
 
 LAB3:    t1 = (t0 + 8056U);
     t2 = *((char **)t1);
-    t3 = (1 - 0);
+    t3 = (0 - 0);
     t4 = (t3 * 1);
     t5 = (1U * t4);
     t6 = (0 + t5);
@@ -2719,7 +2719,7 @@ LAB0:    xsi_set_current_line(53, ng0);
 
 LAB3:    t1 = (t0 + 7896U);
     t2 = *((char **)t1);
-    t3 = (1 - 0);
+    t3 = (0 - 0);
     t4 = (t3 * 1);
     t5 = (1U * t4);
     t6 = (0 + t5);

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : schem.vhf
--- /___/   /\     Timestamp : 04/09/2018 23:06:28
+-- /___/   /\     Timestamp : 04/10/2018 13:29:14
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -32,6 +32,11 @@ entity schem is
 end schem;
 
 architecture BEHAVIORAL of schem is
+   signal K3         : std_logic_vector (0 to 47);
+   signal RP_L       : std_logic_vector (0 to 31);
+   signal RP_R       : std_logic_vector (0 to 31);
+   signal SUM_L      : std_logic_vector (0 to 31);
+   signal SUM_R      : std_logic_vector (0 to 31);
    signal XLXN_5     : std_logic_vector (0 to 27);
    signal XLXN_9     : std_logic_vector (0 to 27);
    signal XLXN_11    : std_logic_vector (0 to 27);
@@ -50,15 +55,12 @@ architecture BEHAVIORAL of schem is
    signal XLXN_40    : std_logic_vector (0 to 47);
    signal XLXN_44    : std_logic_vector (0 to 27);
    signal XLXN_46    : std_logic_vector (0 to 47);
-   signal XLXN_58    : std_logic_vector (0 to 31);
-   signal XLXN_60    : std_logic_vector (0 to 31);
    signal XLXN_91    : std_logic_vector (0 to 27);
    signal XLXN_92    : std_logic_vector (0 to 27);
    signal XLXN_93    : std_logic_vector (0 to 47);
    signal XLXN_94    : std_logic_vector (0 to 47);
    signal XLXN_95    : std_logic_vector (0 to 31);
    signal XLXN_96    : std_logic_vector (0 to 31);
-   signal XLXN_98    : std_logic_vector (0 to 47);
    signal XLXN_107   : std_logic_vector (0 to 27);
    signal XLXN_108   : std_logic_vector (0 to 27);
    signal XLXN_109   : std_logic_vector (0 to 47);
@@ -163,8 +165,6 @@ architecture BEHAVIORAL of schem is
    signal XLXN_289   : std_logic_vector (0 to 31);
    signal XLXN_291   : std_logic_vector (0 to 31);
    signal XLXN_293   : std_logic_vector (0 to 31);
-   signal XLXN_326   : std_logic_vector (0 to 31);
-   signal XLXN_327   : std_logic_vector (0 to 31);
    signal XLXN_329   : std_logic_vector (0 to 31);
    signal XLXN_331   : std_logic_vector (0 to 31);
    signal XLXN_332   : std_logic_vector (0 to 31);
@@ -282,16 +282,16 @@ begin
    XLXI_9 : sumLR
       port map (leftinput(0 to 31)=>XLXN_22(0 to 31),
                 rightinput(0 to 31)=>XLXN_20(0 to 31),
-                leftoutput(0 to 31)=>XLXN_60(0 to 31),
-                rightoutput(0 to 31)=>XLXN_58(0 to 31));
+                leftoutput(0 to 31)=>SUM_L(0 to 31),
+                rightoutput(0 to 31)=>SUM_R(0 to 31));
    
    XLXI_10 : revPerm
-      port map (leftinput(0 to 31)=>XLXN_326(0 to 31),
-                rightinput(0 to 31)=>XLXN_327(0 to 31),
+      port map (leftinput(0 to 31)=>RP_L(0 to 31),
+                rightinput(0 to 31)=>RP_R(0 to 31),
                 myoutput(0 to 63)=>ciphertext(0 to 63));
    
    XLXI_11 : expPerm
-      port map (myinput(0 to 31)=>XLXN_60(0 to 31),
+      port map (myinput(0 to 31)=>SUM_L(0 to 31),
                 myoutput(0 to 47)=>XLXN_32(0 to 47));
    
    XLXI_12 : xor48
@@ -308,7 +308,7 @@ begin
                 myoutput(0 to 31)=>XLXN_37(0 to 31));
    
    XLXI_15 : sumLR
-      port map (leftinput(0 to 31)=>XLXN_58(0 to 31),
+      port map (leftinput(0 to 31)=>SUM_R(0 to 31),
                 rightinput(0 to 31)=>XLXN_37(0 to 31),
                 leftoutput(0 to 31)=>XLXN_329(0 to 31),
                 rightoutput(0 to 31)=>XLXN_263(0 to 31));
@@ -323,7 +323,7 @@ begin
                 myoutput(0 to 47)=>XLXN_93(0 to 47));
    
    XLXI_43 : xor48
-      port map (key(0 to 47)=>XLXN_98(0 to 47),
+      port map (key(0 to 47)=>K3(0 to 47),
                 myinput(0 to 47)=>XLXN_93(0 to 47),
                 myoutput(0 to 47)=>XLXN_94(0 to 47));
    
@@ -350,7 +350,7 @@ begin
    XLXI_48 : PC2
       port map (leftinput(0 to 27)=>XLXN_92(0 to 27),
                 rightinput(0 to 27)=>XLXN_91(0 to 27),
-                myoutput(0 to 47)=>XLXN_98(0 to 47));
+                myoutput(0 to 47)=>K3(0 to 47));
    
    XLXI_54 : expPerm
       port map (myinput(0 to 31)=>XLXN_331(0 to 31),
@@ -774,8 +774,8 @@ begin
    XLXI_168 : sumLR
       port map (leftinput(0 to 31)=>XLXN_293(0 to 31),
                 rightinput(0 to 31)=>XLXN_254(0 to 31),
-                leftoutput(0 to 31)=>XLXN_327(0 to 31),
-                rightoutput(0 to 31)=>XLXN_326(0 to 31));
+                leftoutput(0 to 31)=>RP_R(0 to 31),
+                rightoutput(0 to 31)=>RP_L(0 to 31));
    
    XLXI_170 : PC2
       port map (leftinput(0 to 27)=>XLXN_250(0 to 27),

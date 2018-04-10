@@ -2,14 +2,14 @@ Command line:
    test_sumLR_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50492
+     -socket  53068
 
-Mon Apr 09 15:42:51 2018
+Tue Apr 10 13:01:07 2018
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 1034.58 Meg
+ Current Memory Usage: 1033.96 Meg
 
  Total Signals          : 8
  Total Nets             : 128
@@ -23,7 +23,7 @@ Total Line Count : 6
 
  Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 1349.15 Meg
+ Current Memory Usage: 876.675 Meg
 
-Mon Apr 09 15:43:48 2018
+Tue Apr 10 13:02:17 2018
 

@@ -73,8 +73,8 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 100 ns;	
-		leftinput  <= x"F0000000", x"00000001" after 100 ns;
-		rightinput <= x"10000000", x"0000000F" after 100 ns;
+		leftinput  <= "11001100000000001100110011111111";
+		rightinput <= "00100011010010101010100110111011";
 
       wait;
    end process;
