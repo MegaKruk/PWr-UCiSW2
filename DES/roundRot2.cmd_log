@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl roundRot2_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym roundRot2 {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.sym} 
