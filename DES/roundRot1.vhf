@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : roundRot1.vhf
--- /___/   /\     Timestamp : 04/10/2018 14:01:15
+-- /___/   /\     Timestamp : 04/24/2018 15:18:47
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -31,7 +31,6 @@ entity roundRot1 is
           rightIn     : in    std_logic_vector (0 to 31); 
           rightKeyIn  : in    std_logic_vector (0 to 27); 
           leftKeyOut  : out   std_logic_vector (0 to 27); 
-          leftOut     : out   std_logic_vector (0 to 31); 
           rightKeyOut : out   std_logic_vector (0 to 27); 
           rightOut    : out   std_logic_vector (0 to 31));
 end roundRot1;
@@ -74,7 +73,6 @@ architecture BEHAVIORAL of roundRot1 is
    component sumLR
       port ( leftinput   : in    std_logic_vector (0 to 31); 
              rightinput  : in    std_logic_vector (0 to 31); 
-             leftoutput  : out   std_logic_vector (0 to 31); 
              rightoutput : out   std_logic_vector (0 to 31));
    end component;
    
@@ -113,7 +111,6 @@ begin
    XLXI_9 : sumLR
       port map (leftinput(0 to 31)=>leftIn(0 to 31),
                 rightinput(0 to 31)=>XLXN_20(0 to 31),
-                leftoutput(0 to 31)=>leftOut(0 to 31),
                 rightoutput(0 to 31)=>rightOut(0 to 31));
    
    XLXI_176 : rotL1

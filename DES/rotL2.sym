@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="rotL2">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-4-10T11:12:24</timestamp>
+    <timestamp>2018-4-24T9:9:9</timestamp>
     <pin polarity="Input" x="0" y="-96" name="rightinput(0:27)" />
     <pin polarity="Input" x="0" y="-32" name="leftinput(0:27)" />
     <pin polarity="Output" x="464" y="-96" name="rightoutput(0:27)" />

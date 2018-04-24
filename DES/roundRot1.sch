@@ -10,26 +10,21 @@
         <signal name="XLXN_18(0:47)" />
         <signal name="XLXN_19(0:31)" />
         <signal name="XLXN_20(0:31)" />
-        <signal name="XLXN_5(0:31)" />
         <signal name="XLXN_40(0:47)" />
-        <signal name="XLXN_7(0:47)" />
         <signal name="rightKeyOut(0:27)" />
         <signal name="leftKeyOut(0:27)" />
         <signal name="leftIn(0:31)" />
-        <signal name="leftOut(0:31)" />
-        <signal name="rightOut(0:31)" />
-        <signal name="XLXN_47" />
         <signal name="rightKeyIn(0:27)" />
         <signal name="leftKeyIn(0:27)" />
         <signal name="rightIn(0:31)" />
+        <signal name="rightOut(0:31)" />
         <port polarity="Output" name="rightKeyOut(0:27)" />
         <port polarity="Output" name="leftKeyOut(0:27)" />
         <port polarity="Input" name="leftIn(0:31)" />
-        <port polarity="Output" name="leftOut(0:31)" />
-        <port polarity="Output" name="rightOut(0:31)" />
         <port polarity="Input" name="rightKeyIn(0:27)" />
         <port polarity="Input" name="leftKeyIn(0:27)" />
         <port polarity="Input" name="rightIn(0:31)" />
+        <port polarity="Output" name="rightOut(0:31)" />
         <blockdef name="PC2">
             <timestamp>2018-4-10T10:53:58</timestamp>
             <rect width="320" x="64" y="-128" height="128" />
@@ -75,7 +70,7 @@
             <line x2="448" y1="-32" y2="-32" x1="384" />
         </blockdef>
         <blockdef name="sumLR">
-            <timestamp>2018-4-10T10:55:25</timestamp>
+            <timestamp>2018-4-24T13:14:39</timestamp>
             <rect width="336" x="64" y="-128" height="128" />
             <rect width="64" x="0" y="-108" height="24" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
@@ -83,11 +78,9 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="64" x="400" y="-108" height="24" />
             <line x2="464" y1="-96" y2="-96" x1="400" />
-            <rect width="64" x="400" y="-44" height="24" />
-            <line x2="464" y1="-32" y2="-32" x1="400" />
         </blockdef>
         <blockdef name="rotL1">
-            <timestamp>2018-4-10T10:53:58</timestamp>
+            <timestamp>2018-4-24T9:23:53</timestamp>
             <rect width="336" x="64" y="-128" height="128" />
             <rect width="64" x="0" y="-108" height="24" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
@@ -123,7 +116,6 @@
         <block symbolname="sumLR" name="XLXI_9">
             <blockpin signalname="leftIn(0:31)" name="leftinput(0:31)" />
             <blockpin signalname="XLXN_20(0:31)" name="rightinput(0:31)" />
-            <blockpin signalname="leftOut(0:31)" name="leftoutput(0:31)" />
             <blockpin signalname="rightOut(0:31)" name="rightoutput(0:31)" />
         </block>
         <block symbolname="rotL1" name="XLXI_176">
@@ -187,14 +179,6 @@
             <wire x2="2464" y1="384" y2="384" x1="2272" />
             <wire x2="2480" y1="384" y2="384" x1="2464" />
         </branch>
-        <branch name="leftOut(0:31)">
-            <wire x2="2976" y1="384" y2="384" x1="2944" />
-        </branch>
-        <iomarker fontsize="28" x="2976" y="384" name="leftOut(0:31)" orien="R0" />
-        <branch name="rightOut(0:31)">
-            <wire x2="2976" y1="448" y2="448" x1="2944" />
-        </branch>
-        <iomarker fontsize="28" x="2976" y="448" name="rightOut(0:31)" orien="R0" />
         <iomarker fontsize="28" x="2272" y="192" name="leftIn(0:31)" orien="R270" />
         <branch name="rightKeyOut(0:27)">
             <wire x2="1072" y1="416" y2="416" x1="544" />
@@ -217,6 +201,7 @@
         </branch>
         <iomarker fontsize="28" x="480" y="288" name="rightKeyIn(0:27)" orien="R180" />
         <iomarker fontsize="28" x="480" y="352" name="leftKeyIn(0:27)" orien="R180" />
+        <iomarker fontsize="28" x="480" y="512" name="rightIn(0:31)" orien="R180" />
         <branch name="rightIn(0:31)">
             <wire x2="528" y1="512" y2="512" x1="480" />
             <wire x2="528" y1="512" y2="576" x1="528" />
@@ -224,6 +209,9 @@
             <wire x2="576" y1="512" y2="576" x1="576" />
             <wire x2="592" y1="512" y2="512" x1="576" />
         </branch>
-        <iomarker fontsize="28" x="480" y="512" name="rightIn(0:31)" orien="R180" />
+        <branch name="rightOut(0:31)">
+            <wire x2="2976" y1="384" y2="384" x1="2944" />
+        </branch>
+        <iomarker fontsize="28" x="2976" y="384" name="rightOut(0:31)" orien="R0" />
     </sheet>
 </drawing>

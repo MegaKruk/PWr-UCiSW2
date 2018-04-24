@@ -33,7 +33,6 @@ use IEEE.numeric_std.all;
 entity sumLR is
 port(	leftinput: in std_logic_vector(0 to 31);
 		rightinput: in std_logic_vector(0 to 31);
-		leftoutput: out std_logic_vector(0 to 31);
 		rightoutput: out std_logic_vector(0 to 31));
 end sumLR;
 
@@ -47,7 +46,6 @@ begin
 		--end generate;
 		--sum <= std_logic_vector(unsigned(leftinput) + unsigned(rightinput));
 		rightoutput <= leftinput xor rightinput;
-		leftoutput <= leftinput;
 
 end Behavioral;
 

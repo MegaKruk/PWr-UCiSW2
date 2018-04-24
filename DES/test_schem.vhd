@@ -1,4 +1,4 @@
--- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\schem.sch - Mon Apr 09 21:19:48 2018
+-- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\schem.sch - Tue Apr 24 15:18:30 2018
 --
 -- Notes: 
 -- 1) This testbench template has been automatically generated using types
@@ -22,20 +22,20 @@ END schem_schem_sch_tb;
 ARCHITECTURE behavioral OF schem_schem_sch_tb IS 
 
    COMPONENT schem
-   PORT(  plaintext	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
-          key	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
+   PORT( key	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
+          plaintext	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
           ciphertext	:	OUT	STD_LOGIC_VECTOR (0 TO 63));
    END COMPONENT;
 
-   SIGNAL plaintext	:	STD_LOGIC_VECTOR (0 TO 63);
    SIGNAL key	:	STD_LOGIC_VECTOR (0 TO 63);
+   SIGNAL plaintext	:	STD_LOGIC_VECTOR (0 TO 63);
    SIGNAL ciphertext	:	STD_LOGIC_VECTOR (0 TO 63);
 
 BEGIN
 
    UUT: schem PORT MAP(
-		plaintext => plaintext, 
 		key => key, 
+		plaintext => plaintext, 
 		ciphertext => ciphertext
    );
 
