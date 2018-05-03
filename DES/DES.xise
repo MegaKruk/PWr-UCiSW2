@@ -125,7 +125,7 @@
     </file>
     <file xil_pn:name="sumLR.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="test_sumLR.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -180,6 +180,44 @@
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="191"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="191"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="191"/>
+    </file>
+    <file xil_pn:name="rotR1.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="rotR2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+    </file>
+    <file xil_pn:name="test_rotR1.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="203"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="203"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="203"/>
+    </file>
+    <file xil_pn:name="test_rotR2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="210"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="210"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="210"/>
+    </file>
+    <file xil_pn:name="decr_roundRot1.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="215"/>
+    </file>
+    <file xil_pn:name="decr_roundRot2.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="216"/>
+    </file>
+    <file xil_pn:name="decr_schem.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="221"/>
+    </file>
+    <file xil_pn:name="test_decr_schem.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="223"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="223"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="223"/>
     </file>
   </files>
 

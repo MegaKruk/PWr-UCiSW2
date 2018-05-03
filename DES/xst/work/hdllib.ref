@@ -6,11 +6,14 @@ AR sumlr behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Pr
 AR sbox_3 behavior "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd" sub00/vhpl26 1523134052
 EN rotl1 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" sub00/vhpl37 1524561828
 EN rotl2 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" sub00/vhpl39 1524561850
+AR rotr1 behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR1.vhd" sub00/vhpl42 1525272582
 AR rotl1 behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" sub00/vhpl38 1524561829
 EN schem NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/schem.vhf" sub00/vhpl03 1522149603
 AR xor48 behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd" sub00/vhpl20 1523056327
 AR pc2 behavior "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" sub00/vhpl18 1523283356
 AR sbox_2 behavior "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd" sub00/vhpl24 1523134050
+EN rotr1 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR1.vhd" sub00/vhpl41 1525272581
+EN rotr2 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.vhd" sub00/vhpl43 1525273292
 AR revperm behavior "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" sub00/vhpl10 1523277293
 EN pc1 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" sub00/vhpl15 1523228046
 EN pc2 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" sub00/vhpl17 1523283355
@@ -27,6 +30,7 @@ EN sbox_5 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd" 
 EN sbox_6 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd" sub00/vhpl31 1523134057
 EN sbox_7 NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd" sub00/vhpl07 1523134059
 EN initperm NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhd" sub00/vhpl05 1523056626
+AR rotr2 behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.vhd" sub00/vhpl44 1525273293
 AR rotl2 behavioral "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" sub00/vhpl40 1524561851
 AR sbox_0 behavior "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd" sub00/vhpl01 1523134046
 EN expperm NULL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd" sub00/vhpl13 1523052891

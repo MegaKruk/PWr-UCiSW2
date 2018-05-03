@@ -1,0 +1,2 @@
+vhdtdtfi -lib work rotR2.vhd -prj DES -o rotR2.spl -module rotR2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rotR2.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.sym} 

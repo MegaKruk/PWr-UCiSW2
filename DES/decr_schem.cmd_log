@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl decr_schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.sch} 

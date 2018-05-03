@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xst"
+elaborate
+-ifn rotR2.prj
+-ifmt mixed

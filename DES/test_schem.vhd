@@ -43,8 +43,8 @@ BEGIN
    tb : PROCESS
    BEGIN
 		wait for 100 ns;
-		plaintext <= x"8787878787878787", x"0123456789ABCDEF" after 100 ns;
-		key <= x"0E329232EA6D0D73", x"133457799BBCDFF1" after 100 ns;
+		plaintext <= x"0000000000000000", x"8787878787878787" after 100 ns;
+		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after 100 ns;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

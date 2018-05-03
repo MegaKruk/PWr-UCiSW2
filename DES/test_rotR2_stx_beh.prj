@@ -1,0 +1,2 @@
+vhdl isim_temp "rotR2.vhd"
+vhdl isim_temp "test_rotR2.vhd"

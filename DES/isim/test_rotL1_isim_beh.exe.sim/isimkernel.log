@@ -1,0 +1,29 @@
+Command line:
+   test_rotL1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63604
+
+Wed May 02 17:04:05 2018
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 1034.47 Meg
+
+ Total Signals          : 10
+ Total Nets             : 168
+ Total Signal Drivers   : 60
+ Total Blocks           : 30
+ Total Primitive Blocks : 28
+ Total Processes        : 59
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 555
+Total Line Count : 62
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 1034.47 Meg
+
+Wed May 02 17:04:06 2018
+
