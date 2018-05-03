@@ -2,14 +2,14 @@ Command line:
    decr_schem_decr_schem_sch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49627
+     -socket  49722
 
-Thu May 03 19:56:35 2018
+Thu May 03 20:11:17 2018
 
 
  Elaboration Time: 0.125 sec
 
- Current Memory Usage: 1063.21 Meg
+ Current Memory Usage: 1063.25 Meg
 
  Total Signals          : 1366
  Total Nets             : 11577
@@ -21,9 +21,9 @@ Thu May 03 19:56:35 2018
  Total Scalar Nets and Variables : 25163
 Total Line Count : 1832
 
- Total Simulation Time: 0.28125 sec
+ Total Simulation Time: 0.265625 sec
 
- Current Memory Usage: 905.925 Meg
+ Current Memory Usage: 1063.25 Meg
 
-Thu May 03 19:58:21 2018
+Thu May 03 20:11:38 2018
 

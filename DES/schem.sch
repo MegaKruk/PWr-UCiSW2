@@ -667,5 +667,6 @@
             <wire x2="5456" y1="880" y2="944" x1="5456" />
             <wire x2="5520" y1="880" y2="880" x1="5456" />
         </branch>
+        <text style="fontsize:128;fontname:Arial" x="20" y="580">Encryption</text>
     </sheet>
 </drawing>
