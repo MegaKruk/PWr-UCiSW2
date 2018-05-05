@@ -1,0 +1,5 @@
+MODULE main_schem
+	SUBMODULE schem
+		INSTANCE XLXI_1
+	SUBMODULE decr_schem
+		INSTANCE XLXI_2

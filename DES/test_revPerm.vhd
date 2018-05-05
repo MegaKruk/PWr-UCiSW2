@@ -43,7 +43,7 @@ ARCHITECTURE behavior OF test_revPerm IS
     PORT(
          leftinput : IN  std_logic_vector(0 to 31);
          rightinput : IN  std_logic_vector(0 to 31);
-         output : OUT  std_logic_vector(0 to 63)
+         myoutput : OUT  std_logic_vector(0 to 63)
         );
     END COMPONENT;
     
@@ -53,7 +53,7 @@ ARCHITECTURE behavior OF test_revPerm IS
    signal rightinput : std_logic_vector(0 to 31) := (others => '0');
 
  	--Outputs
-   signal output : std_logic_vector(0 to 63);
+   signal myoutput : std_logic_vector(0 to 63);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
@@ -63,7 +63,7 @@ BEGIN
    uut: revPerm PORT MAP (
           leftinput => leftinput,
           rightinput => rightinput,
-          output => output
+          myoutput => myoutput
         );
 
    -- Stimulus process

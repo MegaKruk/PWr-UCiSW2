@@ -1,1 +1,3 @@
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl decr_schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym decr_schem {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl decr_schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.sch} 

@@ -43,7 +43,6 @@ ARCHITECTURE behavior OF test_sumLR IS
     PORT(
          leftinput : IN  std_logic_vector(0 to 31);
          rightinput : IN  std_logic_vector(0 to 31);
-         leftoutput : OUT  std_logic_vector(0 to 31);
 			rightoutput : OUT  std_logic_vector(0 to 31));
     END COMPONENT;
     
@@ -53,7 +52,6 @@ ARCHITECTURE behavior OF test_sumLR IS
    signal rightinput : std_logic_vector(0 to 31) := (others => '0');
 
  	--Outputs
-   signal leftoutput : std_logic_vector(0 to 31);
    signal rightoutput : std_logic_vector(0 to 31);
 	-- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
@@ -64,7 +62,6 @@ BEGIN
    uut: sumLR PORT MAP (
           leftinput => leftinput,
           rightinput => rightinput,
-          leftoutput => leftoutput,
 			 rightoutput => rightoutput
         );
 

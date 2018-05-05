@@ -43,7 +43,7 @@ ARCHITECTURE behavior OF test_PC2 IS
     PORT(
          leftinput : IN  std_logic_vector(0 to 27);
          rightinput : IN  std_logic_vector(0 to 27);
-         output : OUT  std_logic_vector(0 to 47)
+         myoutput : OUT  std_logic_vector(0 to 47)
         );
     END COMPONENT;
     
@@ -53,7 +53,7 @@ ARCHITECTURE behavior OF test_PC2 IS
    signal rightinput : std_logic_vector(0 to 27) := (others => '0');
 
  	--Outputs
-   signal output : std_logic_vector(0 to 47);
+   signal myoutput : std_logic_vector(0 to 47);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
@@ -63,7 +63,7 @@ BEGIN
    uut: PC2 PORT MAP (
           leftinput => leftinput,
           rightinput => rightinput,
-          output => output
+          myoutput => myoutput
         );
 
    -- Stimulus process

@@ -35,12 +35,22 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="PC2.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="decr_roundRot1.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot1.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot1.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot1_drc.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="decr_roundRot2.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot2.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot2.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_roundRot2_drc.vhf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_schem.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="decr_schem.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="decr_schem.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decr_schem_decr_schem_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decr_schem_decr_schem_sch_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decr_schem_decr_schem_sch_tb_isim_beh.wdb"/>
@@ -62,6 +72,27 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="main_schem.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="main_schem.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="main_schem.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="main_schem.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="main_schem.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="main_schem.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="main_schem.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="main_schem.syr"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="main_schem.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="main_schem.xst"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="main_schem_drc.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="main_schem_main_schem_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="main_schem_main_schem_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="main_schem_main_schem_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="main_schem_main_schem_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="main_schem_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="main_schem_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="main_schem_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pblockPerm.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="pblockPerm.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="pblockPerm.stx"/>
@@ -93,10 +124,16 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="rotR2.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="rotR2.xst"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="roundRot1.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot1.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot1.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot1_drc.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="roundRot2.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot2.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot2.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="roundRot2_drc.vhf"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sbox_0.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="sbox_0.spl"/>
@@ -133,6 +170,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="schem.ngr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="schem.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="schem.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="schem.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="schem.syr"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="schem.vhf">
       <branch xil_pn:name="Implementation"/>
@@ -159,7 +197,9 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="sumLR.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sumLR_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sumLR_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_PC1_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_PC1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_PC1_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_PC1_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_PC2_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_PC2_stx_beh.prj"/>
@@ -167,17 +207,13 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_expPerm_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_initPerm_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_initPerm_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_pblockPerm_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_pblockPerm_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_pblockPerm_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_pblockPerm_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_revPerm_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_revPerm_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_rotL1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_rotL1_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_rotL2_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_rotL2_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_rotL2_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_rotL2_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_rotR1_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_rotR1_stx_beh.prj"/>
@@ -189,9 +225,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_sboxes_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_sumLR_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_sumLR_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_xor48_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_xor48_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_xor48_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_xor48_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="word48.prj"/>
@@ -211,7 +245,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525370031" xil_pn:in_ck="-4641369813179444907" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1525370031">
+    <transform xil_pn:end_ts="1525521770" xil_pn:in_ck="3917796506254948184" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1525521770">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PC1.vhd"/>
@@ -239,6 +273,7 @@
       <outfile xil_pn:name="test_decr_schem.vhd"/>
       <outfile xil_pn:name="test_expPerm.vhd"/>
       <outfile xil_pn:name="test_initPerm.vhd"/>
+      <outfile xil_pn:name="test_main_schem.vhd"/>
       <outfile xil_pn:name="test_pblockPerm.vhd"/>
       <outfile xil_pn:name="test_revPerm.vhd"/>
       <outfile xil_pn:name="test_rotL1.vhd"/>
@@ -252,25 +287,26 @@
       <outfile xil_pn:name="test_xor48.vhd"/>
       <outfile xil_pn:name="xor48.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1525371065" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2729282485379880711" xil_pn:start_ts="1525371065">
+    <transform xil_pn:end_ts="1525521817" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3962362061704651410" xil_pn:start_ts="1525521817">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525371068" xil_pn:in_ck="4319575656520146809" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6215013835781559817" xil_pn:start_ts="1525371065">
+    <transform xil_pn:end_ts="1525521819" xil_pn:in_ck="1483863122015491577" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9047256794860050860" xil_pn:start_ts="1525521817">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="decr_roundRot1.vhf"/>
       <outfile xil_pn:name="decr_roundRot2.vhf"/>
       <outfile xil_pn:name="decr_schem.vhf"/>
+      <outfile xil_pn:name="main_schem.vhf"/>
       <outfile xil_pn:name="roundRot1.vhf"/>
       <outfile xil_pn:name="roundRot2.vhf"/>
       <outfile xil_pn:name="schem.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1524575583" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9204040235399584090" xil_pn:start_ts="1524575583">
+    <transform xil_pn:end_ts="1525516382" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="9083232763714598154" xil_pn:start_ts="1525516382">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1525371069" xil_pn:in_ck="-8100217701835096302" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1525371068">
+    <transform xil_pn:end_ts="1525521772" xil_pn:in_ck="-5519921002373446181" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1525521772">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="PC1.vhd"/>
@@ -280,6 +316,7 @@
       <outfile xil_pn:name="decr_schem.vhf"/>
       <outfile xil_pn:name="expPerm.vhd"/>
       <outfile xil_pn:name="initPerm.vhd"/>
+      <outfile xil_pn:name="main_schem.vhf"/>
       <outfile xil_pn:name="pblockPerm.vhd"/>
       <outfile xil_pn:name="revPerm.vhd"/>
       <outfile xil_pn:name="rotL1.vhd"/>
@@ -304,6 +341,7 @@
       <outfile xil_pn:name="test_decr_schem.vhd"/>
       <outfile xil_pn:name="test_expPerm.vhd"/>
       <outfile xil_pn:name="test_initPerm.vhd"/>
+      <outfile xil_pn:name="test_main_schem.vhd"/>
       <outfile xil_pn:name="test_pblockPerm.vhd"/>
       <outfile xil_pn:name="test_revPerm.vhd"/>
       <outfile xil_pn:name="test_rotL1.vhd"/>
@@ -317,30 +355,85 @@
       <outfile xil_pn:name="test_xor48.vhd"/>
       <outfile xil_pn:name="xor48.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1525371075" xil_pn:in_ck="-8100217701835096302" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6700667608875032106" xil_pn:start_ts="1525371069">
+    <transform xil_pn:end_ts="1525521823" xil_pn:in_ck="-5519921002373446181" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8956695472559018355" xil_pn:start_ts="1525521819">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="decr_schem_decr_schem_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="decr_schem_decr_schem_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_PC1_beh.prj"/>
+      <outfile xil_pn:name="test_PC1_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1525371075" xil_pn:in_ck="-2562418323133068992" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8188221930104666409" xil_pn:start_ts="1525371075">
+    <transform xil_pn:end_ts="1525521823" xil_pn:in_ck="-2562418323133068992" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="810430700904683994" xil_pn:start_ts="1525521823">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="decr_schem_decr_schem_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_PC1_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1522148464" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1522148464">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:in_ck="1483863122015491577" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6732712210936419108" xil_pn:start_ts="1525517296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="decr_roundRot1.vhf"/>
+      <outfile xil_pn:name="decr_roundRot2.vhf"/>
+      <outfile xil_pn:name="decr_schem.vhf"/>
+      <outfile xil_pn:name="main_schem.vhf"/>
+      <outfile xil_pn:name="roundRot1.vhf"/>
+      <outfile xil_pn:name="roundRot2.vhf"/>
+      <outfile xil_pn:name="schem.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="9083232763714598154" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1279156333878672474" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517298" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-360749998042539820" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1525517413" xil_pn:in_ck="-212685150388231189" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="218676339133999860" xil_pn:start_ts="1525517298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="main_schem.jhd"/>
+      <outfile xil_pn:name="main_schem.lso"/>
+      <outfile xil_pn:name="main_schem.ngc"/>
+      <outfile xil_pn:name="main_schem.ngr"/>
+      <outfile xil_pn:name="main_schem.prj"/>
+      <outfile xil_pn:name="main_schem.stx"/>
+      <outfile xil_pn:name="main_schem.syr"/>
+      <outfile xil_pn:name="main_schem.xst"/>
+      <outfile xil_pn:name="main_schem_main_schem_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="main_schem_main_schem_sch_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="main_schem_vhdl.prj"/>
+      <outfile xil_pn:name="main_schem_xst.xrpt"/>
+      <outfile xil_pn:name="schem.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1522144167" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4066557905392798738" xil_pn:start_ts="1522144167">
       <status xil_pn:value="SuccessfullyRun"/>
