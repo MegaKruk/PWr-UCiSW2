@@ -56,8 +56,8 @@ BEGIN
    stim_process : PROCESS
    BEGIN
 		wait for clock_period*10;
-		plaintext <= x"0000000000000000", x"8787878787878787" after clock_period*10;
-		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10;
+		plaintext <= x"0000000000000000", x"8787878787878787" after clock_period*10, x"0123456789ABCDEF" after clock_period*20;
+		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10, x"133457799BBCDFF1" after clock_period*20;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

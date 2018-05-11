@@ -56,8 +56,8 @@ BEGIN
    stim_process : PROCESS
    BEGIN
 		wait for clock_period*10;
-		ciphertext <= x"eae88ffb10943e0e", x"0000000000000000" after clock_period*10;
-		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10;
+		ciphertext <= x"d5d44ff720683d0d", x"0000000000000000" after clock_period*10, x"85e813540f0ab405" after clock_period*20;
+		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10, x"133457799BBCDFF1" after clock_period*20;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

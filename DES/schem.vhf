@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : schem.vhf
--- /___/   /\     Timestamp : 05/11/2018 16:18:30
+-- /___/   /\     Timestamp : 05/11/2018 22:28:26
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -287,13 +287,13 @@ architecture BEHAVIORAL of schem is
    signal XLXN_545   : std_logic_vector (0 to 31);
    signal XLXN_546   : std_logic_vector (0 to 27);
    signal XLXN_547   : std_logic_vector (0 to 27);
-   signal XLXN_548   : std_logic_vector (0 to 31);
    signal XLXN_549   : std_logic_vector (0 to 27);
    signal XLXN_550   : std_logic_vector (0 to 27);
-   signal XLXN_551   : std_logic_vector (0 to 31);
    signal XLXN_608   : std_logic_vector (0 to 63);
    signal XLXN_611   : std_logic_vector (0 to 63);
    signal XLXN_616   : std_logic_vector (0 to 63);
+   signal XLXN_617   : std_logic_vector (0 to 31);
+   signal XLXN_618   : std_logic_vector (0 to 31);
    component initPerm
       port ( myinput     : in    std_logic_vector (0 to 63); 
              rightoutput : out   std_logic_vector (0 to 31); 
@@ -350,8 +350,8 @@ begin
                 rightoutput(0 to 27)=>D0(0 to 27));
    
    XLXI_10 : revPerm
-      port map (leftinput(0 to 31)=>XLXN_548(0 to 31),
-                rightinput(0 to 31)=>XLXN_551(0 to 31),
+      port map (leftinput(0 to 31)=>XLXN_617(0 to 31),
+                rightinput(0 to 31)=>XLXN_618(0 to 31),
                 myoutput(0 to 63)=>XLXN_616(0 to 63));
    
    XLXI_183 : roundRot1_MUSER_schem
@@ -487,16 +487,16 @@ begin
                 rightKeyIn(0 to 27)=>XLXN_546(0 to 27),
                 leftKeyOut(0 to 27)=>XLXN_550(0 to 27),
                 rightKeyOut(0 to 27)=>XLXN_549(0 to 27),
-                rightOut(0 to 31)=>XLXN_548(0 to 31));
+                rightOut(0 to 31)=>XLXN_618(0 to 31));
    
    XLXI_203 : roundRot1_MUSER_schem
       port map (leftIn(0 to 31)=>XLXN_545(0 to 31),
                 leftKeyIn(0 to 27)=>XLXN_550(0 to 27),
-                rightIn(0 to 31)=>XLXN_548(0 to 31),
+                rightIn(0 to 31)=>XLXN_618(0 to 31),
                 rightKeyIn(0 to 27)=>XLXN_549(0 to 27),
                 leftKeyOut=>open,
                 rightKeyOut=>open,
-                rightOut(0 to 31)=>XLXN_551(0 to 31));
+                rightOut(0 to 31)=>XLXN_617(0 to 31));
    
    XLXI_223 : syncReg
       port map (clk=>Clk_50MHz,
