@@ -1,4 +1,4 @@
--- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\decr_schem.sch - Wed May 02 17:48:08 2018
+-- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\decr_schem.sch - Fri May 11 15:49:23 2018
 --
 -- Notes: 
 -- 1) This testbench template has been automatically generated using types
@@ -22,29 +22,42 @@ END decr_schem_decr_schem_sch_tb;
 ARCHITECTURE behavioral OF decr_schem_decr_schem_sch_tb IS 
 
    COMPONENT decr_schem
-   PORT( ciphertext	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
-          key	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
+   PORT( key	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
+          Clk_50MHz	:	IN	STD_LOGIC; 
+          ciphertext	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
           plaintext	:	OUT	STD_LOGIC_VECTOR (0 TO 63));
    END COMPONENT;
 
-   SIGNAL ciphertext	:	STD_LOGIC_VECTOR (0 TO 63);
    SIGNAL key	:	STD_LOGIC_VECTOR (0 TO 63);
+   SIGNAL Clk_50MHz	:	STD_LOGIC;
+   SIGNAL ciphertext	:	STD_LOGIC_VECTOR (0 TO 63);
    SIGNAL plaintext	:	STD_LOGIC_VECTOR (0 TO 63);
+	
+	constant clock_period : time := 20 ns;
 
 BEGIN
 
+	clock_process :process
+   BEGIN
+		Clk_50MHz <= '0';
+		wait for clock_period/2;
+		Clk_50MHz <= '1';
+		wait for clock_period/2;
+   END PROCESS;
+
    UUT: decr_schem PORT MAP(
-		ciphertext => ciphertext, 
 		key => key, 
+		Clk_50MHz => Clk_50MHz, 
+		ciphertext => ciphertext, 
 		plaintext => plaintext
    );
 
 -- *** Test Bench - User Defined Section ***
-   tb : PROCESS
+   stim_process : PROCESS
    BEGIN
-		wait for 100 ns;
-		ciphertext <= x"eae88ffb10943e0e", x"0000000000000000" after 100 ns;
-		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after 100 ns;
+		wait for clock_period*10;
+		ciphertext <= x"eae88ffb10943e0e", x"0000000000000000" after clock_period*10;
+		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

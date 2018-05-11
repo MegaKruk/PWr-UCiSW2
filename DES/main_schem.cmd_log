@@ -1,2 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.sch} 
-xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.syr" 

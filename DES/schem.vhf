@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : schem.vhf
--- /___/   /\     Timestamp : 05/03/2018 20:09:49
+-- /___/   /\     Timestamp : 05/11/2018 16:18:30
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -18,110 +18,6 @@
 --    This vhdl netlist is translated from an ECS schematic. It can be 
 --    synthesized and simulated, but it should not be modified. 
 --
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
-entity roundRot1_MUSER_schem is
-   port ( leftIn      : in    std_logic_vector (0 to 31); 
-          leftKeyIn   : in    std_logic_vector (0 to 27); 
-          rightIn     : in    std_logic_vector (0 to 31); 
-          rightKeyIn  : in    std_logic_vector (0 to 27); 
-          leftKeyOut  : out   std_logic_vector (0 to 27); 
-          rightKeyOut : out   std_logic_vector (0 to 27); 
-          rightOut    : out   std_logic_vector (0 to 31));
-end roundRot1_MUSER_schem;
-
-architecture BEHAVIORAL of roundRot1_MUSER_schem is
-   signal XLXN_12           : std_logic_vector (0 to 47);
-   signal XLXN_18           : std_logic_vector (0 to 47);
-   signal XLXN_19           : std_logic_vector (0 to 31);
-   signal XLXN_20           : std_logic_vector (0 to 31);
-   signal XLXN_40           : std_logic_vector (0 to 47);
-   signal rightKeyOut_DUMMY : std_logic_vector (0 to 27);
-   signal leftKeyOut_DUMMY  : std_logic_vector (0 to 27);
-   component PC2
-      port ( rightinput : in    std_logic_vector (0 to 27); 
-             leftinput  : in    std_logic_vector (0 to 27); 
-             myoutput   : out   std_logic_vector (0 to 47));
-   end component;
-   
-   component expPerm
-      port ( myinput  : in    std_logic_vector (0 to 31); 
-             myoutput : out   std_logic_vector (0 to 47));
-   end component;
-   
-   component xor48
-      port ( myinput  : in    std_logic_vector (0 to 47); 
-             key      : in    std_logic_vector (0 to 47); 
-             myoutput : out   std_logic_vector (0 to 47));
-   end component;
-   
-   component sboxes
-      port ( myinput  : in    std_logic_vector (0 to 47); 
-             myoutput : out   std_logic_vector (0 to 31));
-   end component;
-   
-   component pblockPerm
-      port ( myinput  : in    std_logic_vector (0 to 31); 
-             myoutput : out   std_logic_vector (0 to 31));
-   end component;
-   
-   component sumLR
-      port ( leftinput   : in    std_logic_vector (0 to 31); 
-             rightinput  : in    std_logic_vector (0 to 31); 
-             rightoutput : out   std_logic_vector (0 to 31));
-   end component;
-   
-   component rotL1
-      port ( rightinput  : in    std_logic_vector (0 to 27); 
-             leftinput   : in    std_logic_vector (0 to 27); 
-             rightoutput : out   std_logic_vector (0 to 27); 
-             leftoutput  : out   std_logic_vector (0 to 27));
-   end component;
-   
-begin
-   leftKeyOut(0 to 27) <= leftKeyOut_DUMMY(0 to 27);
-   rightKeyOut(0 to 27) <= rightKeyOut_DUMMY(0 to 27);
-   XLXI_1 : PC2
-      port map (leftinput(0 to 27)=>leftKeyOut_DUMMY(0 to 27),
-                rightinput(0 to 27)=>rightKeyOut_DUMMY(0 to 27),
-                myoutput(0 to 47)=>XLXN_40(0 to 47));
-   
-   XLXI_2 : expPerm
-      port map (myinput(0 to 31)=>rightIn(0 to 31),
-                myoutput(0 to 47)=>XLXN_12(0 to 47));
-   
-   XLXI_3 : xor48
-      port map (key(0 to 47)=>XLXN_40(0 to 47),
-                myinput(0 to 47)=>XLXN_12(0 to 47),
-                myoutput(0 to 47)=>XLXN_18(0 to 47));
-   
-   XLXI_4 : sboxes
-      port map (myinput(0 to 47)=>XLXN_18(0 to 47),
-                myoutput(0 to 31)=>XLXN_19(0 to 31));
-   
-   XLXI_8 : pblockPerm
-      port map (myinput(0 to 31)=>XLXN_19(0 to 31),
-                myoutput(0 to 31)=>XLXN_20(0 to 31));
-   
-   XLXI_9 : sumLR
-      port map (leftinput(0 to 31)=>leftIn(0 to 31),
-                rightinput(0 to 31)=>XLXN_20(0 to 31),
-                rightoutput(0 to 31)=>rightOut(0 to 31));
-   
-   XLXI_176 : rotL1
-      port map (leftinput(0 to 27)=>leftKeyIn(0 to 27),
-                rightinput(0 to 27)=>rightKeyIn(0 to 27),
-                leftoutput(0 to 27)=>leftKeyOut_DUMMY(0 to 27),
-                rightoutput(0 to 27)=>rightKeyOut_DUMMY(0 to 27));
-   
-end BEHAVIORAL;
-
-
 
 library ieee;
 use ieee.std_logic_1164.ALL;
@@ -233,8 +129,113 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
+entity roundRot1_MUSER_schem is
+   port ( leftIn      : in    std_logic_vector (0 to 31); 
+          leftKeyIn   : in    std_logic_vector (0 to 27); 
+          rightIn     : in    std_logic_vector (0 to 31); 
+          rightKeyIn  : in    std_logic_vector (0 to 27); 
+          leftKeyOut  : out   std_logic_vector (0 to 27); 
+          rightKeyOut : out   std_logic_vector (0 to 27); 
+          rightOut    : out   std_logic_vector (0 to 31));
+end roundRot1_MUSER_schem;
+
+architecture BEHAVIORAL of roundRot1_MUSER_schem is
+   signal XLXN_12           : std_logic_vector (0 to 47);
+   signal XLXN_18           : std_logic_vector (0 to 47);
+   signal XLXN_19           : std_logic_vector (0 to 31);
+   signal XLXN_20           : std_logic_vector (0 to 31);
+   signal XLXN_40           : std_logic_vector (0 to 47);
+   signal rightKeyOut_DUMMY : std_logic_vector (0 to 27);
+   signal leftKeyOut_DUMMY  : std_logic_vector (0 to 27);
+   component PC2
+      port ( rightinput : in    std_logic_vector (0 to 27); 
+             leftinput  : in    std_logic_vector (0 to 27); 
+             myoutput   : out   std_logic_vector (0 to 47));
+   end component;
+   
+   component expPerm
+      port ( myinput  : in    std_logic_vector (0 to 31); 
+             myoutput : out   std_logic_vector (0 to 47));
+   end component;
+   
+   component xor48
+      port ( myinput  : in    std_logic_vector (0 to 47); 
+             key      : in    std_logic_vector (0 to 47); 
+             myoutput : out   std_logic_vector (0 to 47));
+   end component;
+   
+   component sboxes
+      port ( myinput  : in    std_logic_vector (0 to 47); 
+             myoutput : out   std_logic_vector (0 to 31));
+   end component;
+   
+   component pblockPerm
+      port ( myinput  : in    std_logic_vector (0 to 31); 
+             myoutput : out   std_logic_vector (0 to 31));
+   end component;
+   
+   component sumLR
+      port ( leftinput   : in    std_logic_vector (0 to 31); 
+             rightinput  : in    std_logic_vector (0 to 31); 
+             rightoutput : out   std_logic_vector (0 to 31));
+   end component;
+   
+   component rotL1
+      port ( rightinput  : in    std_logic_vector (0 to 27); 
+             leftinput   : in    std_logic_vector (0 to 27); 
+             rightoutput : out   std_logic_vector (0 to 27); 
+             leftoutput  : out   std_logic_vector (0 to 27));
+   end component;
+   
+begin
+   leftKeyOut(0 to 27) <= leftKeyOut_DUMMY(0 to 27);
+   rightKeyOut(0 to 27) <= rightKeyOut_DUMMY(0 to 27);
+   XLXI_1 : PC2
+      port map (leftinput(0 to 27)=>leftKeyOut_DUMMY(0 to 27),
+                rightinput(0 to 27)=>rightKeyOut_DUMMY(0 to 27),
+                myoutput(0 to 47)=>XLXN_40(0 to 47));
+   
+   XLXI_2 : expPerm
+      port map (myinput(0 to 31)=>rightIn(0 to 31),
+                myoutput(0 to 47)=>XLXN_12(0 to 47));
+   
+   XLXI_3 : xor48
+      port map (key(0 to 47)=>XLXN_40(0 to 47),
+                myinput(0 to 47)=>XLXN_12(0 to 47),
+                myoutput(0 to 47)=>XLXN_18(0 to 47));
+   
+   XLXI_4 : sboxes
+      port map (myinput(0 to 47)=>XLXN_18(0 to 47),
+                myoutput(0 to 31)=>XLXN_19(0 to 31));
+   
+   XLXI_8 : pblockPerm
+      port map (myinput(0 to 31)=>XLXN_19(0 to 31),
+                myoutput(0 to 31)=>XLXN_20(0 to 31));
+   
+   XLXI_9 : sumLR
+      port map (leftinput(0 to 31)=>leftIn(0 to 31),
+                rightinput(0 to 31)=>XLXN_20(0 to 31),
+                rightoutput(0 to 31)=>rightOut(0 to 31));
+   
+   XLXI_176 : rotL1
+      port map (leftinput(0 to 27)=>leftKeyIn(0 to 27),
+                rightinput(0 to 27)=>rightKeyIn(0 to 27),
+                leftoutput(0 to 27)=>leftKeyOut_DUMMY(0 to 27),
+                rightoutput(0 to 27)=>rightKeyOut_DUMMY(0 to 27));
+   
+end BEHAVIORAL;
+
+
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
 entity schem is
-   port ( key        : in    std_logic_vector (0 to 63); 
+   port ( Clk_50MHz  : in    std_logic; 
+          key        : in    std_logic_vector (0 to 63); 
           plaintext  : in    std_logic_vector (0 to 63); 
           ciphertext : out   std_logic_vector (0 to 63));
 end schem;
@@ -290,6 +291,9 @@ architecture BEHAVIORAL of schem is
    signal XLXN_549   : std_logic_vector (0 to 27);
    signal XLXN_550   : std_logic_vector (0 to 27);
    signal XLXN_551   : std_logic_vector (0 to 31);
+   signal XLXN_608   : std_logic_vector (0 to 63);
+   signal XLXN_611   : std_logic_vector (0 to 63);
+   signal XLXN_616   : std_logic_vector (0 to 63);
    component initPerm
       port ( myinput     : in    std_logic_vector (0 to 63); 
              rightoutput : out   std_logic_vector (0 to 31); 
@@ -328,21 +332,27 @@ architecture BEHAVIORAL of schem is
              rightOut    : out   std_logic_vector (0 to 31));
    end component;
    
+   component syncReg
+      port ( clk    : in    std_logic; 
+             regIn  : in    std_logic_vector (0 to 63); 
+             regOut : out   std_logic_vector (0 to 63));
+   end component;
+   
 begin
    XLXI_1 : initPerm
-      port map (myinput(0 to 63)=>plaintext(0 to 63),
+      port map (myinput(0 to 63)=>XLXN_611(0 to 63),
                 leftoutput(0 to 31)=>XLXN_485(0 to 31),
                 rightoutput(0 to 31)=>XLXN_496(0 to 31));
    
    XLXI_2 : PC1
-      port map (myinput(0 to 63)=>key(0 to 63),
+      port map (myinput(0 to 63)=>XLXN_608(0 to 63),
                 leftoutput(0 to 27)=>C0(0 to 27),
                 rightoutput(0 to 27)=>D0(0 to 27));
    
    XLXI_10 : revPerm
       port map (leftinput(0 to 31)=>XLXN_548(0 to 31),
                 rightinput(0 to 31)=>XLXN_551(0 to 31),
-                myoutput(0 to 63)=>ciphertext(0 to 63));
+                myoutput(0 to 63)=>XLXN_616(0 to 63));
    
    XLXI_183 : roundRot1_MUSER_schem
       port map (leftIn(0 to 31)=>XLXN_485(0 to 31),
@@ -487,6 +497,21 @@ begin
                 leftKeyOut=>open,
                 rightKeyOut=>open,
                 rightOut(0 to 31)=>XLXN_551(0 to 31));
+   
+   XLXI_223 : syncReg
+      port map (clk=>Clk_50MHz,
+                regIn(0 to 63)=>key(0 to 63),
+                regOut(0 to 63)=>XLXN_608(0 to 63));
+   
+   XLXI_224 : syncReg
+      port map (clk=>Clk_50MHz,
+                regIn(0 to 63)=>plaintext(0 to 63),
+                regOut(0 to 63)=>XLXN_611(0 to 63));
+   
+   XLXI_225 : syncReg
+      port map (clk=>Clk_50MHz,
+                regIn(0 to 63)=>XLXN_616(0 to 63),
+                regOut(0 to 63)=>ciphertext(0 to 63));
    
 end BEHAVIORAL;
 

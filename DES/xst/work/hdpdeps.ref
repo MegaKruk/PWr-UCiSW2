@@ -1,319 +1,185 @@
-V3 157
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd" 2018/04/07.00:14:32 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhd" 2018/04/05.23:55:04 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/pblockPerm.vhd" 2018/04/07.00:02:26 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC1.vhd" 2018/04/07.00:46:15 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/PC2.vhd" 2018/04/07.00:59:47 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/revPerm.vhd" 2018/04/06.00:31:29 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd" 2018/04/07.22:47:07 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd" 2018/03/27.13:19:12 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_1.vhd" 2018/04/04.22:12:40 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd" 2018/04/04.22:14:08 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd" 2018/04/04.22:15:34 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_4.vhd" 2018/04/04.22:18:18 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd" 2018/04/04.22:18:54 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd" 2018/04/04.22:20:22 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd" 2018/04/04.22:23:50 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/schem.vhf" 2018/03/27.13:19:58 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sumLR.vhd" 2018/04/07.23:40:55 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/word48.vhd" 2018/03/27.12:41:49 P.20131013
-EN work/word48 0 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/word48.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/word48/Behavioral 0 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/word48.vhd" \
-      EN work/word48 0
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd" 2018/04/07.01:12:01 P.20131013
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot1.vhf" 2018/05/02.17:50:20 P.20131013
-EN work/decr_roundRot1 1525517370 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot1.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot1/BEHAVIORAL 1525517371 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot1.vhf" \
-      EN work/decr_roundRot1 1525517370 CP PC2 CP expPerm CP xor48 CP sboxes \
-      CP pblockPerm CP sumLR CP rotR1
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot2.vhf" 2018/05/02.17:50:21 P.20131013
-EN work/decr_roundRot2 1525517372 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot2.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot2/BEHAVIORAL 1525517373 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_roundRot2.vhf" \
-      EN work/decr_roundRot2 1525517372 CP PC2 CP expPerm CP xor48 CP sboxes \
-      CP pblockPerm CP sumLR CP rotR2
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" 2018/05/03.20:11:07 P.20131013
-EN work/decr_roundRot2_MUSER_decr_schem 1525517358 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot2_MUSER_decr_schem/BEHAVIORAL 1525517359 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      EN work/decr_roundRot2_MUSER_decr_schem 1525517358 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotR2
-EN work/decr_roundRot1_MUSER_decr_schem 1525517360 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot1_MUSER_decr_schem/BEHAVIORAL 1525517361 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      EN work/decr_roundRot1_MUSER_decr_schem 1525517360 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotR1
-EN work/decr_schem 1525517362 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_schem/BEHAVIORAL 1525517363 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/decr_schem.vhf" \
-      EN work/decr_schem 1525517362 CP PC1 CP revPerm CP initPerm \
-      CP decr_roundRot1_MUSER_decr_schem CP decr_roundRot2_MUSER_decr_schem \
-      CP rotL1
+V3 96
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/expPerm 1525517320 \
+EN work/expPerm 1526048333 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/expPerm/behavior 1525517321 \
+AR work/expPerm/behavior 1526048334 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd" \
-      EN work/expPerm 1525517320
+      EN work/expPerm 1526048333
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/initPerm 1525517338 \
+EN work/initPerm 1526048347 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/initPerm/behavior 1525517339 \
+AR work/initPerm/behavior 1526048348 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd" \
-      EN work/initPerm 1525517338
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" 2018/05/05.12:44:04 P.20131013
-EN work/decr_roundRot2_MUSER_main_schem 1525517344 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot2_MUSER_main_schem/BEHAVIORAL 1525517345 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/decr_roundRot2_MUSER_main_schem 1525517344 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotR2
-EN work/decr_roundRot1_MUSER_main_schem 1525517346 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_roundRot1_MUSER_main_schem/BEHAVIORAL 1525517347 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/decr_roundRot1_MUSER_main_schem 1525517346 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotR1
-EN work/decr_schem_MUSER_main_schem 1525517348 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/decr_schem_MUSER_main_schem/BEHAVIORAL 1525517349 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/decr_schem_MUSER_main_schem 1525517348 CP PC1 CP revPerm CP initPerm \
-      CP decr_roundRot1_MUSER_main_schem CP decr_roundRot2_MUSER_main_schem \
-      CP rotL1
-EN work/roundRot1_MUSER_main_schem 1525517350 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot1_MUSER_main_schem/BEHAVIORAL 1525517351 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/roundRot1_MUSER_main_schem 1525517350 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotL1
-EN work/roundRot2_MUSER_main_schem 1525517352 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot2_MUSER_main_schem/BEHAVIORAL 1525517353 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/roundRot2_MUSER_main_schem 1525517352 CP PC2 CP expPerm CP xor48 \
-      CP sboxes CP pblockPerm CP sumLR CP rotL2
-EN work/schem_MUSER_main_schem 1525517354 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/schem_MUSER_main_schem/BEHAVIORAL 1525517355 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/schem_MUSER_main_schem 1525517354 CP initPerm CP PC1 CP revPerm \
-      CP roundRot1_MUSER_main_schem CP roundRot2_MUSER_main_schem
-EN work/main_schem 1525517356 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/main_schem/BEHAVIORAL 1525517357 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/main_schem.vhf" \
-      EN work/main_schem 1525517356 CP schem_MUSER_main_schem \
-      CP decr_schem_MUSER_main_schem
+      EN work/initPerm 1526048347
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/pblockPerm 1525517326 \
+EN work/pblockPerm 1526048339 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/pblockPerm/behavior 1525517327 \
+AR work/pblockPerm/behavior 1526048340 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" \
-      EN work/pblockPerm 1525517326
+      EN work/pblockPerm 1526048339
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/PC1 1525517340 \
+EN work/PC1 1526048349 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/PC1/behavior 1525517341 \
+AR work/PC1/behavior 1526048350 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" \
-      EN work/PC1 1525517340
+      EN work/PC1 1526048349
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/PC2 1525517318 \
+EN work/PC2 1526048331 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/PC2/behavior 1525517319 \
+AR work/PC2/behavior 1526048332 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" \
-      EN work/PC2 1525517318
+      EN work/PC2 1526048331
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/revPerm 1525517342 \
+EN work/revPerm 1526048351 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/revPerm/behavior 1525517343 \
+AR work/revPerm/behavior 1526048352 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" \
-      EN work/revPerm 1525517342
+      EN work/revPerm 1526048351
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" 2018/04/24.11:21:38 P.20131013
-EN work/rotL1 1525517332 \
+EN work/rotL1 1526048345 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/rotL1/Behavioral 1525517333 \
+AR work/rotL1/Behavioral 1526048346 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" \
-      EN work/rotL1 1525517332
+      EN work/rotL1 1526048345
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" 2018/04/24.11:22:54 P.20131013
-EN work/rotL2 1525517330 \
+EN work/rotL2 1526048343 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/rotL2/Behavioral 1525517331 \
+AR work/rotL2/Behavioral 1526048344 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" \
-      EN work/rotL2 1525517330
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR1.vhd" 2018/05/02.16:44:51 P.20131013
-EN work/rotR1 1525517336 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR1.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/rotR1/Behavioral 1525517337 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR1.vhd" \
-      EN work/rotR1 1525517336
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.vhd" 2018/05/02.17:00:40 P.20131013
-EN work/rotR2 1525517334 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/rotR2/Behavioral 1525517335 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotR2.vhd" \
-      EN work/rotR2 1525517334
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf" 2018/04/24.15:18:47 P.20131013
-EN work/roundRot1 1525517374 \
+      EN work/rotL2 1526048343
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf" 2018/05/11.16:18:31 P.20131013
+EN work/roundRot1 1526048361 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot1/BEHAVIORAL 1525517375 \
+AR work/roundRot1/BEHAVIORAL 1526048362 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf" \
-      EN work/roundRot1 1525517374 CP PC2 CP expPerm CP xor48 CP sboxes CP pblockPerm \
+      EN work/roundRot1 1526048361 CP PC2 CP expPerm CP xor48 CP sboxes CP pblockPerm \
       CP sumLR CP rotL1
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.vhf" 2018/04/24.15:18:47 P.20131013
-EN work/roundRot2 1525517376 \
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.vhf" 2018/05/11.16:18:31 P.20131013
+EN work/roundRot2 1526048363 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot2/BEHAVIORAL 1525517377 \
+AR work/roundRot2/BEHAVIORAL 1526048364 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.vhf" \
-      EN work/roundRot2 1525517376 CP PC2 CP expPerm CP xor48 CP sboxes CP pblockPerm \
+      EN work/roundRot2 1526048363 CP PC2 CP expPerm CP xor48 CP sboxes CP pblockPerm \
       CP sumLR CP rotL2
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sboxes 1525517324 \
+EN work/sboxes 1526048337 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/sboxes/behavior 1525517325 \
+AR work/sboxes/behavior 1526048338 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd" \
-      EN work/sboxes 1525517324 CP sbox_0 CP sbox_1 CP sbox_2 CP sbox_3 CP sbox_4 \
+      EN work/sboxes 1526048337 CP sbox_0 CP sbox_1 CP sbox_2 CP sbox_3 CP sbox_4 \
       CP sbox_5 CP sbox_6 CP sbox_7
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_0 1525517302 \
+EN work/sbox_0 1526048315 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_0/behavior 1525517303 \
+AR work/sbox_0/behavior 1526048316 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd" \
-      EN work/sbox_0 1525517302
+      EN work/sbox_0 1526048315
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_1 1525517304 \
+EN work/sbox_1 1526048317 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_1/behavior 1525517305 \
+AR work/sbox_1/behavior 1526048318 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd" \
-      EN work/sbox_1 1525517304
+      EN work/sbox_1 1526048317
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_2 1525517306 \
+EN work/sbox_2 1526048319 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_2/behavior 1525517307 \
+AR work/sbox_2/behavior 1526048320 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd" \
-      EN work/sbox_2 1525517306
+      EN work/sbox_2 1526048319
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_3 1525517308 \
+EN work/sbox_3 1526048321 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_3/behavior 1525517309 \
+AR work/sbox_3/behavior 1526048322 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd" \
-      EN work/sbox_3 1525517308
+      EN work/sbox_3 1526048321
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_4 1525517310 \
+EN work/sbox_4 1526048323 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_4/behavior 1525517311 \
+AR work/sbox_4/behavior 1526048324 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd" \
-      EN work/sbox_4 1525517310
+      EN work/sbox_4 1526048323
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_5 1525517312 \
+EN work/sbox_5 1526048325 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_5/behavior 1525517313 \
+AR work/sbox_5/behavior 1526048326 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd" \
-      EN work/sbox_5 1525517312
+      EN work/sbox_5 1526048325
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_6 1525517314 \
+EN work/sbox_6 1526048327 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_6/behavior 1525517315 \
+AR work/sbox_6/behavior 1526048328 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd" \
-      EN work/sbox_6 1525517314
+      EN work/sbox_6 1526048327
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/sbox_7 1525517316 \
+EN work/sbox_7 1526048329 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sbox_7/behavior 1525517317 \
+AR work/sbox_7/behavior 1526048330 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd" \
-      EN work/sbox_7 1525517316
-FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" 2018/05/03.20:09:50 P.20131013
-EN work/roundRot1_MUSER_schem 1525517364 \
+      EN work/sbox_7 1526048329
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" 2018/05/11.16:18:31 P.20131013
+EN work/roundRot2_MUSER_schem 1526048355 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot1_MUSER_schem/BEHAVIORAL 1525517365 \
+AR work/roundRot2_MUSER_schem/BEHAVIORAL 1526048356 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
-      EN work/roundRot1_MUSER_schem 1525517364 CP PC2 CP expPerm CP xor48 CP sboxes \
-      CP pblockPerm CP sumLR CP rotL1
-EN work/roundRot2_MUSER_schem 1525517366 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/roundRot2_MUSER_schem/BEHAVIORAL 1525517367 \
-      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
-      EN work/roundRot2_MUSER_schem 1525517366 CP PC2 CP expPerm CP xor48 CP sboxes \
+      EN work/roundRot2_MUSER_schem 1526048355 CP PC2 CP expPerm CP xor48 CP sboxes \
       CP pblockPerm CP sumLR CP rotL2
-EN work/schem 1525517368 \
+EN work/roundRot1_MUSER_schem 1526048357 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/schem/BEHAVIORAL 1525517369 \
+AR work/roundRot1_MUSER_schem/BEHAVIORAL 1526048358 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
-      EN work/schem 1525517368 CP initPerm CP PC1 CP revPerm \
-      CP roundRot1_MUSER_schem CP roundRot2_MUSER_schem
+      EN work/roundRot1_MUSER_schem 1526048357 CP PC2 CP expPerm CP xor48 CP sboxes \
+      CP pblockPerm CP sumLR CP rotL1
+EN work/schem 1526048359 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/schem/BEHAVIORAL 1526048360 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" \
+      EN work/schem 1526048359 CP initPerm CP PC1 CP revPerm \
+      CP roundRot1_MUSER_schem CP roundRot2_MUSER_schem CP syncReg
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" 2018/04/24.14:47:25 P.20131013
-EN work/sumLR 1525517328 \
+EN work/sumLR 1526048341 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/sumLR/Behavioral 1525517329 \
+AR work/sumLR/Behavioral 1526048342 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" \
-      EN work/sumLR 1525517328
+      EN work/sumLR 1526048341
+FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.vhd" 2018/05/08.13:27:22 P.20131013
+EN work/syncReg 1526048353 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/syncReg/Behavioral 1526048354 \
+      FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.vhd" \
+      EN work/syncReg 1526048353
 FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd" 2018/04/10.12:53:58 P.20131013
-EN work/xor48 1525517322 \
+EN work/xor48 1526048335 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/xor48/Behavioral 1525517323 \
+AR work/xor48/Behavioral 1526048336 \
       FL "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd" \
-      EN work/xor48 1525517322
+      EN work/xor48 1526048335

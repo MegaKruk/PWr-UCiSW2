@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.95 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.95 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: schem.prj
 
@@ -104,77 +104,73 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-WARNING:HDLParsers:3607 - Unit work/schem is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/schem.vhf", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf".
-WARNING:HDLParsers:3607 - Unit work/schem/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/schem.vhf", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf".
-WARNING:HDLParsers:3607 - Unit work/initPerm is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd".
-WARNING:HDLParsers:3607 - Unit work/initPerm/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/initPerm.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd".
-WARNING:HDLParsers:3607 - Unit work/expPerm is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd".
-WARNING:HDLParsers:3607 - Unit work/expPerm/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/expPerm.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd".
-WARNING:HDLParsers:3607 - Unit work/sboxes is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd".
-WARNING:HDLParsers:3607 - Unit work/sboxes/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sboxes.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd".
-WARNING:HDLParsers:3607 - Unit work/xor48 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd".
-WARNING:HDLParsers:3607 - Unit work/xor48/Behavioral is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/xor48.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_0 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_0/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_0.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_1 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_1.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_1/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_1.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_2 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_2/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_2.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_3 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_3/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_3.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_4 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_4.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_4/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_4.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_5 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_5/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_5.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_6 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_6/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_6.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_7 is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd".
-WARNING:HDLParsers:3607 - Unit work/sbox_7/behavior is now defined in a different file.  It was defined in "C:/Users/Filip/Documents/workspace/ISE Projects/DES/sbox_7.vhd", and is now defined in "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd".
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_0.vhd" in Library work.
-Architecture behavior of Entity sbox_0 is up to date.
+Entity <sbox_0> compiled.
+Entity <sbox_0> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_1.vhd" in Library work.
-Architecture behavior of Entity sbox_1 is up to date.
+Entity <sbox_1> compiled.
+Entity <sbox_1> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_2.vhd" in Library work.
-Architecture behavior of Entity sbox_2 is up to date.
+Entity <sbox_2> compiled.
+Entity <sbox_2> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_3.vhd" in Library work.
-Architecture behavior of Entity sbox_3 is up to date.
+Entity <sbox_3> compiled.
+Entity <sbox_3> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_4.vhd" in Library work.
-Architecture behavior of Entity sbox_4 is up to date.
+Entity <sbox_4> compiled.
+Entity <sbox_4> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_5.vhd" in Library work.
-Architecture behavior of Entity sbox_5 is up to date.
+Entity <sbox_5> compiled.
+Entity <sbox_5> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_6.vhd" in Library work.
-Architecture behavior of Entity sbox_6 is up to date.
+Entity <sbox_6> compiled.
+Entity <sbox_6> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sbox_7.vhd" in Library work.
-Architecture behavior of Entity sbox_7 is up to date.
+Entity <sbox_7> compiled.
+Entity <sbox_7> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC2.vhd" in Library work.
-Architecture behavior of Entity pc2 is up to date.
+Entity <PC2> compiled.
+Entity <PC2> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/expPerm.vhd" in Library work.
-Architecture behavior of Entity expperm is up to date.
+Entity <expPerm> compiled.
+Entity <expPerm> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/xor48.vhd" in Library work.
-Architecture behavioral of Entity xor48 is up to date.
+Entity <xor48> compiled.
+Entity <xor48> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sboxes.vhd" in Library work.
-Architecture behavior of Entity sboxes is up to date.
+Entity <sboxes> compiled.
+Entity <sboxes> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/pblockPerm.vhd" in Library work.
-Architecture behavior of Entity pblockperm is up to date.
+Entity <pblockPerm> compiled.
+Entity <pblockPerm> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/sumLR.vhd" in Library work.
-Architecture behavioral of Entity sumlr is up to date.
+Entity <sumLR> compiled.
+Entity <sumLR> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL2.vhd" in Library work.
-Architecture behavioral of Entity rotl2 is up to date.
+Entity <rotL2> compiled.
+Entity <rotL2> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/rotL1.vhd" in Library work.
-Architecture behavioral of Entity rotl1 is up to date.
+Entity <rotL1> compiled.
+Entity <rotL1> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/initPerm.vhd" in Library work.
-Architecture behavior of Entity initperm is up to date.
+Entity <initPerm> compiled.
+Entity <initPerm> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/PC1.vhd" in Library work.
-Architecture behavior of Entity pc1 is up to date.
+Entity <PC1> compiled.
+Entity <PC1> (Architecture <behavior>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd" in Library work.
-Architecture behavior of Entity revperm is up to date.
+Entity <revPerm> compiled.
+Entity <revPerm> (Architecture <behavior>) compiled.
+Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.vhd" in Library work.
+Entity <syncReg> compiled.
+Entity <syncReg> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" in Library work.
-Entity <roundRot1_MUSER_schem> compiled.
-Entity <roundRot1_MUSER_schem> (Architecture <BEHAVIORAL>) compiled.
 Entity <roundRot2_MUSER_schem> compiled.
 Entity <roundRot2_MUSER_schem> (Architecture <BEHAVIORAL>) compiled.
+Entity <roundRot1_MUSER_schem> compiled.
+Entity <roundRot1_MUSER_schem> (Architecture <BEHAVIORAL>) compiled.
 Entity <schem> compiled.
-Entity <schem> (Architecture <behavioral>) compiled.
+Entity <schem> (Architecture <BEHAVIORAL>) compiled.
 Compiling vhdl file "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf" in Library work.
 Entity <roundRot1> compiled.
 Entity <roundRot1> (Architecture <BEHAVIORAL>) compiled.
@@ -185,7 +181,7 @@ Entity <roundRot2> (Architecture <BEHAVIORAL>) compiled.
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <schem> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <schem> in library <work> (architecture <BEHAVIORAL>).
 
 Analyzing hierarchy for entity <initPerm> in library <work> (architecture <behavior>).
 
@@ -197,21 +193,23 @@ Analyzing hierarchy for entity <roundRot1_MUSER_schem> in library <work> (archit
 
 Analyzing hierarchy for entity <roundRot2_MUSER_schem> in library <work> (architecture <BEHAVIORAL>).
 
+Analyzing hierarchy for entity <syncReg> in library <work> (architecture <Behavioral>).
+
 Analyzing hierarchy for entity <PC2> in library <work> (architecture <behavior>).
 
 Analyzing hierarchy for entity <expPerm> in library <work> (architecture <behavior>).
 
-Analyzing hierarchy for entity <xor48> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <xor48> in library <work> (architecture <Behavioral>).
 
 Analyzing hierarchy for entity <sboxes> in library <work> (architecture <behavior>).
 
 Analyzing hierarchy for entity <pblockPerm> in library <work> (architecture <behavior>).
 
-Analyzing hierarchy for entity <sumLR> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <sumLR> in library <work> (architecture <Behavioral>).
 
-Analyzing hierarchy for entity <rotL1> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <rotL1> in library <work> (architecture <Behavioral>).
 
-Analyzing hierarchy for entity <rotL2> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <rotL2> in library <work> (architecture <Behavioral>).
 
 Analyzing hierarchy for entity <sbox_0> in library <work> (architecture <behavior>).
 
@@ -233,9 +231,9 @@ Analyzing hierarchy for entity <sbox_7> in library <work> (architecture <behavio
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <schem> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" line 482: Unconnected output port 'rightKeyOut' of component 'roundRot1_MUSER_schem'.
-WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" line 482: Unconnected output port 'leftKeyOut' of component 'roundRot1_MUSER_schem'.
+Analyzing Entity <schem> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" line 492: Unconnected output port 'rightKeyOut' of component 'roundRot1_MUSER_schem'.
+WARNING:Xst:753 - "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf" line 492: Unconnected output port 'leftKeyOut' of component 'roundRot1_MUSER_schem'.
 Entity <schem> analyzed. Unit <schem> generated.
 
 Analyzing Entity <initPerm> in library <work> (Architecture <behavior>).
@@ -256,7 +254,7 @@ Entity <PC2> analyzed. Unit <PC2> generated.
 Analyzing Entity <expPerm> in library <work> (Architecture <behavior>).
 Entity <expPerm> analyzed. Unit <expPerm> generated.
 
-Analyzing Entity <xor48> in library <work> (Architecture <behavioral>).
+Analyzing Entity <xor48> in library <work> (Architecture <Behavioral>).
 Entity <xor48> analyzed. Unit <xor48> generated.
 
 Analyzing Entity <sboxes> in library <work> (Architecture <behavior>).
@@ -289,17 +287,20 @@ Entity <sbox_7> analyzed. Unit <sbox_7> generated.
 Analyzing Entity <pblockPerm> in library <work> (Architecture <behavior>).
 Entity <pblockPerm> analyzed. Unit <pblockPerm> generated.
 
-Analyzing Entity <sumLR> in library <work> (Architecture <behavioral>).
+Analyzing Entity <sumLR> in library <work> (Architecture <Behavioral>).
 Entity <sumLR> analyzed. Unit <sumLR> generated.
 
-Analyzing Entity <rotL1> in library <work> (Architecture <behavioral>).
+Analyzing Entity <rotL1> in library <work> (Architecture <Behavioral>).
 Entity <rotL1> analyzed. Unit <rotL1> generated.
 
 Analyzing Entity <roundRot2_MUSER_schem> in library <work> (Architecture <BEHAVIORAL>).
 Entity <roundRot2_MUSER_schem> analyzed. Unit <roundRot2_MUSER_schem> generated.
 
-Analyzing Entity <rotL2> in library <work> (Architecture <behavioral>).
+Analyzing Entity <rotL2> in library <work> (Architecture <Behavioral>).
 Entity <rotL2> analyzed. Unit <rotL2> generated.
+
+Analyzing Entity <syncReg> in library <work> (Architecture <Behavioral>).
+Entity <syncReg> analyzed. Unit <syncReg> generated.
 
 
 =========================================================================
@@ -329,6 +330,14 @@ Unit <PC1> synthesized.
 Synthesizing Unit <revPerm>.
     Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/revPerm.vhd".
 Unit <revPerm> synthesized.
+
+
+Synthesizing Unit <syncReg>.
+    Related source file is "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.vhd".
+    Found 64-bit register for signal <regOut>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <syncReg> synthesized.
 
 
 Synthesizing Unit <PC2>.
@@ -483,6 +492,8 @@ HDL Synthesis Report
 Macro Statistics
 # ROMs                                                 : 128
  4x64-bit ROM                                          : 128
+# Registers                                            : 3
+ 64-bit register                                       : 3
 # Multiplexers                                         : 128
  4-bit 16-to-1 multiplexer                             : 128
 # Xors                                                 : 32
@@ -495,6 +506,14 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+WARNING:Xst:2677 - Node <regOut_63> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_55> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_47> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_39> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_31> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_23> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_15> of sequential type is unconnected in block <XLXI_223>.
+WARNING:Xst:2677 - Node <regOut_7> of sequential type is unconnected in block <XLXI_223>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -502,6 +521,8 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # ROMs                                                 : 128
  4x64-bit ROM                                          : 128
+# Registers                                            : 192
+ Flip-Flops                                            : 192
 # Multiplexers                                         : 128
  4-bit 16-to-1 multiplexer                             : 128
 # Xors                                                 : 32
@@ -516,16 +537,29 @@ Macro Statistics
 
 Optimizing unit <schem> ...
 
+Optimizing unit <syncReg> ...
+WARNING:Xst:2677 - Node <XLXI_223/regOut_7> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_15> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_23> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_31> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_39> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_47> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_55> of sequential type is unconnected in block <schem>.
+WARNING:Xst:2677 - Node <XLXI_223/regOut_63> of sequential type is unconnected in block <schem>.
+
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block schem, actual ratio is 74.
+Found area constraint ratio of 100 (+ 5) on block schem, actual ratio is 73.
 
 Final Macro Processing ...
 
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 184
+ Flip-Flops                                            : 184
+
 =========================================================================
 
 =========================================================================
@@ -550,16 +584,26 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 192
+# IOs                              : 193
 
 Cell Usage :
-# BELS                             : 8697
-#      LUT2                        : 249
-#      LUT3                        : 2574
-#      LUT4                        : 2337
-#      MUXF5                       : 2033
+# BELS                             : 9670
+#      LUT2                        : 217
+#      LUT2_D                      : 25
+#      LUT2_L                      : 131
+#      LUT3                        : 1430
+#      LUT3_D                      : 42
+#      LUT3_L                      : 21
+#      LUT4                        : 4085
+#      LUT4_D                      : 172
+#      LUT4_L                      : 73
+#      MUXF5                       : 2032
 #      MUXF6                       : 1008
-#      MUXF7                       : 496
+#      MUXF7                       : 434
+# FlipFlops/Latches                : 184
+#      FD                          : 184
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
 # IO Buffers                       : 184
 #      IBUF                        : 120
 #      OBUF                        : 64
@@ -570,10 +614,12 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-5 
 
- Number of Slices:                     2665  out of   4656    57%  
- Number of 4 input LUTs:               5160  out of   9312    55%  
- Number of IOs:                         192
- Number of bonded IOBs:                 184  out of    232    79%  
+ Number of Slices:                     3191  out of   4656    68%  
+ Number of Slice Flip Flops:            184  out of   9312     1%  
+ Number of 4 input LUTs:               6196  out of   9312    66%  
+ Number of IOs:                         193
+ Number of bonded IOBs:                 185  out of    232    79%  
+ Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
 Partition Resource Summary:
@@ -593,7 +639,11 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk_50MHz                          | BUFGP                  | 184   |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -603,136 +653,166 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
-   Maximum combinational path delay: 90.835ns
+   Minimum period: 73.553ns (Maximum Frequency: 13.596MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
 
 Timing Detail:
 --------------
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 36345389631351830000000000 / 64
+Timing constraint: Default period analysis for Clock 'Clk_50MHz'
+  Clock period: 73.553ns (frequency: 13.596MHz)
+  Total number of paths / destination ports: 91572318121406787000000000 / 64
 -------------------------------------------------------------------------
-Delay:               90.835ns (Levels of Logic = 94)
-  Source:            plaintext<6> (PAD)
-  Destination:       ciphertext<58> (PAD)
+Delay:               73.553ns (Levels of Logic = 81)
+  Source:            XLXI_224/regOut_26 (FF)
+  Destination:       XLXI_225/regOut_28 (FF)
+  Source Clock:      Clk_50MHz rising
+  Destination Clock: Clk_50MHz rising
 
-  Data Path: plaintext<6> to ciphertext<58>
+  Data Path: XLXI_224/regOut_26 to XLXI_225/regOut_28
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            43   1.106   1.228  plaintext_6_IBUF (plaintext_6_IBUF)
-     LUT2:I0->O           29   0.612   1.075  XLXI_183/XLXI_3/Mxor_myoutput_Result<47>1 (XLXI_183/XLXI_4/sb0/Mrom_row_rom000013)
-     LUT4:I3->O            1   0.612   0.000  XLXI_183/XLXI_4/sb0/Mmux_decimalOutput_9_f5_G (N191)
-     MUXF5:I1->O           1   0.278   0.387  XLXI_183/XLXI_4/sb0/Mmux_decimalOutput_9_f5 (XLXI_183/XLXI_4/sb0/Mmux_decimalOutput_9_f5)
-     LUT4:I2->O            1   0.612   0.360  XLXI_183/XLXN_18<1>48 (XLXI_183/XLXN_18<1>48)
-     LUT4:I3->O            6   0.612   0.599  XLXI_183/XLXN_18<1>81 (XLXI_183/XLXN_19<0>)
-     LUT3:I2->O           24   0.612   1.067  XLXI_185/XLXI_3/Mxor_myoutput_Result<36>1 (XLXI_185/XLXI_4/sb1/Mrom_row_rom000020)
-     LUT4:I3->O            5   0.612   0.541  XLXI_185/XLXI_4/sb1/Mrom_row_rom0000171 (XLXI_185/XLXI_4/sb1/Mrom_row_rom000017)
-     LUT4:I3->O            1   0.612   0.000  XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_67 (XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_51)
-     MUXF5:I1->O           1   0.278   0.000  XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_4_f5_0 (XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_4_f51)
-     MUXF6:I1->O           1   0.451   0.000  XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_3_f6_0 (XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_3_f61)
-     MUXF7:I1->O          15   0.451   0.894  XLXI_185/XLXI_4/sb1/Mmux_decimalOutput_2_f7_0 (XLXI_185/XLXN_19<5>)
-     LUT3:I2->O           30   0.612   1.075  XLXI_189/XLXI_3/Mxor_myoutput_Result<5>1 (XLXI_189/XLXI_4/sb7/Mrom_row_rom000013)
-     LUT4:I3->O            2   0.612   0.383  XLXI_189/XLXI_4/sb7/Mrom_row_rom00001 (XLXI_189/XLXI_4/sb7/Mrom_row_rom0000)
-     LUT4:I3->O            1   0.612   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_610 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_610)
-     MUXF5:I1->O           1   0.278   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_5_f5_5 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_5_f56)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_3_f6_2 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_3_f63)
-     MUXF7:I1->O           3   0.451   0.481  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_2_f7_2 (XLXI_189/XLXN_19<31>)
-     LUT4:I2->O           30   0.612   1.224  XLXI_191/XLXI_3/Mxor_myoutput_Result<18>1 (XLXI_191/XLXI_4/sb4/Mrom_row_rom000032)
-     LUT3:I0->O            1   0.612   0.000  XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_8 (XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_8)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_6_f5 (XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_6_f5)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_4_f6 (XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_4_f6)
-     MUXF7:I0->O           4   0.451   0.529  XLXI_191/XLXI_4/sb4/Mmux_decimalOutput_2_f7 (XLXI_191/XLXN_19<16>)
-     LUT4:I2->O           32   0.612   1.225  XLXI_192/XLXI_3/Mxor_myoutput_Result<35>1 (XLXI_192/XLXI_4/sb2/Mrom_row_rom00002)
-     LUT2:I0->O            1   0.612   0.000  XLXI_192/XLXI_4/sb2/Mrom_row_rom00001 (XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_83)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_6_f5_2 (XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_6_f53)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_4_f6_2 (XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_4_f63)
-     MUXF7:I0->O           1   0.451   0.426  XLXI_192/XLXI_4/sb2/Mmux_decimalOutput_2_f7_2 (XLXI_192/XLXN_19<9>)
-     LUT4:I1->O           49   0.612   1.229  XLXI_192/XLXI_9/Mxor_rightoutput_Result<16>1 (XLXN_508<15>)
-     LUT2:I0->O           30   0.612   1.102  XLXI_193/XLXI_3/Mxor_myoutput_Result<23>1 (XLXI_193/XLXI_4/sb4/Mrom_row_rom000027)
-     LUT4:I2->O            1   0.612   0.360  XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_83_SW0 (N56)
-     LUT4:I3->O            1   0.612   0.000  XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_83 (XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_83)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_6_f5_2 (XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_6_f53)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_4_f6_2 (XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_4_f63)
-     MUXF7:I0->O           1   0.451   0.426  XLXI_193/XLXI_4/sb4/Mmux_decimalOutput_2_f7_2 (XLXI_193/XLXN_19<19>)
-     LUT4:I1->O            6   0.612   0.721  XLXI_193/XLXI_9/Mxor_rightoutput_Result<29>1 (XLXN_511<2>)
-     LUT2:I0->O           16   0.612   0.909  XLXI_194/XLXI_3/Mxor_myoutput_Result<44>1 (XLXI_194/XLXN_18<3>)
-     LUT4:I2->O            1   0.612   0.000  XLXI_194/XLXN_18<1>48_SW02 (XLXI_194/XLXN_18<1>48_SW01)
-     MUXF5:I0->O           1   0.278   0.360  XLXI_194/XLXN_18<1>48_SW0_f5 (N32)
-     LUT4:I3->O            1   0.612   0.360  XLXI_194/XLXN_18<1>48 (XLXI_194/XLXN_18<1>48)
-     LUT4:I3->O            6   0.612   0.638  XLXI_194/XLXN_18<1>81 (XLXI_194/XLXN_19<0>)
-     LUT3:I1->O           24   0.612   1.067  XLXI_195/XLXI_3/Mxor_myoutput_Result<36>1 (XLXI_195/XLXI_4/sb1/Mrom_row_rom000020)
-     LUT4:I3->O            5   0.612   0.541  XLXI_195/XLXI_4/sb1/Mrom_row_rom0000171 (XLXI_195/XLXI_4/sb1/Mrom_row_rom000017)
-     LUT4:I3->O            1   0.612   0.000  XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_67 (XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_51)
-     MUXF5:I1->O           1   0.278   0.000  XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_4_f5_0 (XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_4_f51)
-     MUXF6:I1->O           1   0.451   0.000  XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_3_f6_0 (XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_3_f61)
-     MUXF7:I1->O          15   0.451   0.933  XLXI_195/XLXI_4/sb1/Mmux_decimalOutput_2_f7_0 (XLXI_195/XLXN_19<5>)
-     LUT3:I1->O           30   0.612   1.075  XLXI_196/XLXI_3/Mxor_myoutput_Result<5>1 (XLXI_196/XLXI_4/sb7/Mrom_row_rom000013)
-     LUT4:I3->O            2   0.612   0.383  XLXI_196/XLXI_4/sb7/Mrom_row_rom00001 (XLXI_196/XLXI_4/sb7/Mrom_row_rom0000)
-     LUT4:I3->O            1   0.612   0.000  XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_610 (XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_610)
-     MUXF5:I1->O           1   0.278   0.000  XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_5_f5_5 (XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_5_f56)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_3_f6_2 (XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_3_f63)
-     MUXF7:I1->O           3   0.451   0.520  XLXI_196/XLXI_4/sb7/Mmux_decimalOutput_2_f7_2 (XLXI_196/XLXN_19<31>)
-     LUT4:I1->O           30   0.612   1.224  XLXI_197/XLXI_3/Mxor_myoutput_Result<18>1 (XLXI_197/XLXI_4/sb4/Mrom_row_rom000032)
-     LUT3:I0->O            1   0.612   0.000  XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_8 (XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_8)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_6_f5 (XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_6_f5)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_4_f6 (XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_4_f6)
-     MUXF7:I0->O           4   0.451   0.568  XLXI_197/XLXI_4/sb4/Mmux_decimalOutput_2_f7 (XLXI_197/XLXN_19<16>)
-     LUT4:I1->O           32   0.612   1.225  XLXI_198/XLXI_3/Mxor_myoutput_Result<35>1 (XLXI_198/XLXI_4/sb2/Mrom_row_rom00002)
-     LUT2:I0->O            1   0.612   0.000  XLXI_198/XLXI_4/sb2/Mrom_row_rom00001 (XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_83)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_6_f5_2 (XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_6_f53)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_4_f6_2 (XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_4_f63)
-     MUXF7:I0->O           1   0.451   0.509  XLXI_198/XLXI_4/sb2/Mmux_decimalOutput_2_f7_2 (XLXI_198/XLXN_19<9>)
-     LUT4:I0->O           48   0.612   1.229  XLXI_198/XLXI_9/Mxor_rightoutput_Result<16>1 (XLXN_535<15>)
-     LUT2:I0->O           30   0.612   1.102  XLXI_199/XLXI_3/Mxor_myoutput_Result<23>1 (XLXI_199/XLXI_4/sb4/Mrom_row_rom000027)
-     LUT4:I2->O            1   0.612   0.360  XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_83_SW0 (N96)
-     LUT4:I3->O            1   0.612   0.000  XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_83 (XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_83)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_6_f5_2 (XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_6_f53)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_4_f6_2 (XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_4_f63)
-     MUXF7:I0->O           1   0.451   0.509  XLXI_199/XLXI_4/sb4/Mmux_decimalOutput_2_f7_2 (XLXI_199/XLXN_19<19>)
-     LUT4:I0->O            4   0.612   0.651  XLXI_199/XLXI_9/Mxor_rightoutput_Result<29>1 (XLXN_538<2>)
-     LUT2:I0->O           16   0.612   0.909  XLXI_200/XLXI_3/Mxor_myoutput_Result<44>1 (XLXI_200/XLXN_18<3>)
-     LUT4:I2->O            1   0.612   0.000  XLXI_200/XLXN_18<1>48_SW02 (XLXI_200/XLXN_18<1>48_SW01)
-     MUXF5:I0->O           1   0.278   0.360  XLXI_200/XLXN_18<1>48_SW0_f5 (N30)
-     LUT4:I3->O            1   0.612   0.360  XLXI_200/XLXN_18<1>48 (XLXI_200/XLXN_18<1>48)
-     LUT4:I3->O            5   0.612   0.607  XLXI_200/XLXN_18<1>81 (XLXI_200/XLXN_19<0>)
-     LUT3:I1->O           24   0.612   1.067  XLXI_201/XLXI_3/Mxor_myoutput_Result<36>1 (XLXI_201/XLXI_4/sb1/Mrom_row_rom000020)
-     LUT4:I3->O            5   0.612   0.541  XLXI_201/XLXI_4/sb1/Mrom_row_rom0000171 (XLXI_201/XLXI_4/sb1/Mrom_row_rom000017)
-     LUT4:I3->O            1   0.612   0.000  XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_67 (XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_51)
-     MUXF5:I1->O           1   0.278   0.000  XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_4_f5_0 (XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_4_f51)
-     MUXF6:I1->O           1   0.451   0.000  XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_3_f6_0 (XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_3_f61)
-     MUXF7:I1->O          10   0.451   0.819  XLXI_201/XLXI_4/sb1/Mmux_decimalOutput_2_f7_0 (XLXI_201/XLXN_19<5>)
-     LUT3:I1->O           30   0.612   1.224  XLXI_202/XLXI_3/Mxor_myoutput_Result<5>1 (XLXI_202/XLXI_4/sb7/Mrom_row_rom000013)
-     LUT3:I0->O            1   0.612   0.000  XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_7 (XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_7)
-     MUXF5:I0->O           1   0.278   0.000  XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_5_f5 (XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_5_f5)
-     MUXF6:I0->O           1   0.451   0.000  XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_3_f6 (XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_3_f6)
-     MUXF7:I1->O           3   0.451   0.603  XLXI_202/XLXI_4/sb7/Mmux_decimalOutput_2_f7 (XLXI_202/XLXN_19<28>)
-     LUT4:I0->O           31   0.612   1.225  XLXI_203/XLXI_3/Mxor_myoutput_Result<42>1 (XLXI_203/XLXI_4/sb0/Mrom_row_rom000015)
-     LUT2:I0->O            1   0.612   0.387  XLXI_203/XLXI_4/sb0/Mrom_row_rom00001 (XLXI_203/XLXI_4/sb0/Mrom_row_rom0000)
-     LUT4:I2->O            1   0.612   0.387  XLXI_203/XLXI_4/sb0/Mmux_decimalOutput_9_f5 (XLXI_203/XLXI_4/sb0/Mmux_decimalOutput_9_f5)
-     LUT4:I2->O            1   0.612   0.360  XLXI_203/XLXN_18<1>48 (XLXI_203/XLXN_18<1>48)
-     LUT4:I3->O            1   0.612   0.426  XLXI_203/XLXI_9/Mxor_rightoutput_Result<23>1_SW0 (N36)
-     LUT4:I1->O            1   0.612   0.357  XLXI_203/XLXI_9/Mxor_rightoutput_Result<23>1 (XLXN_551<8>)
-     OBUF:I->O                 3.169          ciphertext_58_OBUF (ciphertext<58>)
+     FD:C->Q              29   0.514   1.224  XLXI_224/regOut_26 (XLXI_224/regOut_26)
+     LUT4:I0->O           12   0.612   0.847  XLXI_183/XLXI_4/sb2/Mrom_row_rom00001 (XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_83)
+     LUT3:I2->O            1   0.612   0.000  XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_5_f5_61 (XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_5_f5_6)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_5_f5_6 (XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_5_f57)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_4_f6_2 (XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_4_f63)
+     MUXF7:I0->O          16   0.451   0.909  XLXI_183/XLXI_4/sb2/Mmux_decimalOutput_2_f7_2 (XLXI_183/XLXN_19<9>)
+     LUT3:I2->O           29   0.612   1.141  XLXI_185/XLXI_3/Mxor_myoutput_Result<25>1 (XLXI_185/XLXN_18<22>)
+     LUT3:I1->O            1   0.612   0.000  XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_5_f5_51 (XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_5_f5_5)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_5_f5_5 (XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_5_f56)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_3_f6_2 (XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_3_f63)
+     MUXF7:I1->O          14   0.451   0.880  XLXI_185/XLXI_4/sb3/Mmux_decimalOutput_2_f7_2 (XLXI_185/XLXN_19<15>)
+     LUT3_D:I2->O         30   0.612   1.075  XLXI_189/XLXI_3/Mxor_myoutput_Result<0>1 (XLXI_189/XLXI_4/sb7/Mrom_row_rom000010)
+     LUT4:I3->O            1   0.612   0.360  XLXI_189/XLXI_4/sb7/Mrom_row_rom0000121 (XLXI_189/XLXI_4/sb7/Mrom_row_rom000012)
+     LUT4:I3->O            1   0.612   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_71 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_71)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_5_f5_0 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_5_f51)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_4_f6 (XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_4_f6)
+     MUXF7:I0->O          17   0.451   0.896  XLXI_189/XLXI_4/sb7/Mmux_decimalOutput_2_f7 (XLXI_189/XLXN_19<28>)
+     LUT4_D:I3->O         21   0.612   0.962  XLXI_191/XLXI_3/Mxor_myoutput_Result<42>1 (XLXI_191/XLXI_4/sb0/Mrom_row_rom000015)
+     LUT4:I3->O            1   0.612   0.387  XLXI_191/XLXI_4/sb0/Mmux_decimalOutput_10 (XLXI_191/XLXI_4/sb0/Mmux_decimalOutput_10)
+     LUT3:I2->O            1   0.612   0.000  XLXI_191/XLXN_18<1>50_F (N4723)
+     MUXF5:I0->O           4   0.278   0.502  XLXI_191/XLXN_18<1>50 (XLXI_191/XLXN_18<1>50)
+     LUT4:I3->O           30   0.612   1.102  XLXI_192/XLXI_3/Mxor_myoutput_Result<36>1 (XLXI_192/XLXI_4/sb1/Mrom_row_rom000020)
+     LUT4:I2->O            1   0.612   0.000  XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_72 (XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_72)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_6_f5 (XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_6_f5)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_4_f6 (XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_4_f6)
+     MUXF7:I0->O           8   0.451   0.646  XLXI_192/XLXI_4/sb1/Mmux_decimalOutput_2_f7 (XLXI_192/XLXN_19<4>)
+     LUT4:I3->O           24   0.612   1.067  XLXI_193/XLXI_3/Mxor_myoutput_Result<30>1 (XLXI_193/XLXI_4/sb2/Mrom_row_rom000033)
+     LUT4:I3->O            1   0.612   0.000  XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_711 (XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_711)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_6_f5_2 (XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_6_f53)
+     MUXF6:I0->O           4   0.451   0.529  XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_4_f6_2 (XLXI_193/XLXI_4/sb2/Mmux_decimalOutput_4_f63)
+     LUT4_D:I2->O         53   0.612   1.082  XLXI_193/XLXI_9/Mxor_rightoutput_Result<16>1 (XLXN_511<15>)
+     LUT4:I3->O            2   0.612   0.383  XLXI_194/XLXI_4/sb4/Mrom_row_rom00001 (XLXI_194/XLXI_4/sb4/Mrom_row_rom0000)
+     LUT4:I3->O            1   0.612   0.000  XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_72 (XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_72)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_6_f5 (XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_6_f5)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_4_f6 (XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_4_f6)
+     MUXF7:I0->O          31   0.451   1.103  XLXI_194/XLXI_4/sb4/Mmux_decimalOutput_2_f7 (XLXI_194/XLXN_19<16>)
+     LUT3:I2->O           24   0.612   1.094  XLXI_195/XLXI_3/Mxor_myoutput_Result<35>1 (XLXI_195/XLXI_4/sb2/Mrom_row_rom00002)
+     LUT4:I2->O            1   0.612   0.000  XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_79 (XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_79)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_5_f5_5 (XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_5_f56)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_3_f6_2 (XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_3_f63)
+     MUXF7:I1->O          26   0.451   1.101  XLXI_195/XLXI_4/sb2/Mmux_decimalOutput_2_f7_2 (XLXI_195/XLXN_19<9>)
+     LUT3:I2->O           29   0.612   1.141  XLXI_196/XLXI_3/Mxor_myoutput_Result<25>1 (XLXI_196/XLXN_18<22>)
+     LUT3:I1->O            1   0.612   0.000  XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_65 (XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_65)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_5_f5_2 (XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_5_f53)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_4_f6_0 (XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_4_f61)
+     MUXF7:I0->O          25   0.451   1.074  XLXI_196/XLXI_4/sb3/Mmux_decimalOutput_2_f7_0 (XLXI_196/XLXN_19<13>)
+     LUT4:I3->O           32   0.612   1.103  XLXI_197/XLXI_3/Mxor_myoutput_Result<17>1 (XLXI_197/XLXI_4/sb5/Mrom_row_rom00002)
+     LUT3:I2->O            1   0.612   0.000  XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_5 (XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_5)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_4_f5 (XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_4_f5)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_3_f6 (XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_3_f6)
+     MUXF7:I1->O          21   0.451   0.962  XLXI_197/XLXI_4/sb5/Mmux_decimalOutput_2_f7 (XLXI_197/XLXN_19<20>)
+     LUT4_D:I3->O         21   0.612   1.028  XLXI_198/XLXI_3/Mxor_myoutput_Result<43>1 (XLXI_198/XLXN_18<4>)
+     LUT3:I1->O            1   0.612   0.000  XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_9 (XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_9)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_7_f5 (XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_7_f5)
+     MUXF6:I0->O           1   0.451   0.387  XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_5_f6 (XLXI_198/XLXI_4/sb0/Mmux_decimalOutput_5_f6)
+     LUT4:I2->O            3   0.612   0.454  XLXI_198/XLXN_18<1>82 (XLXI_198/XLXN_19<0>)
+     LUT4:I3->O           30   0.612   1.075  XLXI_199/XLXI_3/Mxor_myoutput_Result<36>1 (XLXI_199/XLXI_4/sb1/Mrom_row_rom000020)
+     LUT4:I3->O            1   0.612   0.000  XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_5_f5_11 (XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_5_f5_1)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_5_f5_1 (XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_5_f52)
+     MUXF6:I0->O           4   0.451   0.529  XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_3_f6_0 (XLXI_199/XLXI_4/sb1/Mmux_decimalOutput_3_f61)
+     LUT4_D:I2->O         51   0.612   1.108  XLXI_199/XLXI_9/Mxor_rightoutput_Result<4>1 (XLXN_538<27>)
+     LUT3:I2->O            4   0.612   0.568  XLXI_200/XLXI_4/sb7/Mrom_row_rom00001 (XLXI_200/XLXI_4/sb7/Mrom_row_rom0000)
+     LUT4:I1->O            1   0.612   0.000  XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_71 (XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_71)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_5_f5_0 (XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_5_f51)
+     MUXF6:I1->O           1   0.451   0.000  XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_4_f6 (XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_4_f6)
+     MUXF7:I0->O          10   0.451   0.780  XLXI_200/XLXI_4/sb7/Mmux_decimalOutput_2_f7 (XLXI_200/XLXN_19<28>)
+     LUT3_D:I2->O         26   0.612   1.074  XLXI_201/XLXI_3/Mxor_myoutput_Result<42>1 (XLXI_201/XLXI_4/sb0/Mrom_row_rom000015)
+     LUT4:I3->O            2   0.612   0.383  XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_67_SW0 (N3017)
+     LUT4:I3->O            1   0.612   0.000  XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_67 (XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_67)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_5_f5 (XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_5_f5)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_3_f6 (XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_3_f6)
+     MUXF7:I1->O           3   0.451   0.481  XLXI_201/XLXI_4/sb0/Mmux_decimalOutput_2_f7 (XLXI_201/XLXN_19<1>)
+     LUT3:I2->O           30   0.612   1.102  XLXI_202/XLXI_3/Mxor_myoutput_Result<24>1 (XLXI_202/XLXI_4/sb3/Mrom_row_rom000026)
+     LUT3:I2->O            1   0.612   0.000  XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_5_f5_51 (XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_5_f5_5)
+     MUXF5:I1->O           1   0.278   0.000  XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_5_f5_5 (XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_5_f56)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_3_f6_2 (XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_3_f63)
+     MUXF7:I1->O           7   0.451   0.605  XLXI_202/XLXI_4/sb3/Mmux_decimalOutput_2_f7_2 (XLXI_202/XLXN_19<15>)
+     LUT4:I3->O           26   0.612   1.074  XLXI_203/XLXI_3/Mxor_myoutput_Result<0>1 (XLXI_203/XLXI_4/sb7/Mrom_row_rom000010)
+     LUT4:I3->O            1   0.612   0.000  XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_83 (XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_83)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_6_f5_2 (XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_6_f53)
+     MUXF6:I0->O           1   0.451   0.509  XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_4_f6_2 (XLXI_203/XLXI_4/sb7/Mmux_decimalOutput_4_f63)
+     LUT4:I0->O            1   0.612   0.000  XLXI_203/XLXI_9/Mxor_rightoutput_Result<11>1 (XLXN_551<20>)
+     FD:D                      0.268          XLXI_225/regOut_28
     ----------------------------------------
-    Total                     90.835ns (51.705ns logic, 39.130ns route)
-                                       (56.9% logic, 43.1% route)
+    Total                     73.553ns (40.824ns logic, 32.729ns route)
+                                       (55.5% logic, 44.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 120 / 120
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            plaintext<0> (PAD)
+  Destination:       XLXI_224/regOut_0 (FF)
+  Destination Clock: Clk_50MHz rising
+
+  Data Path: plaintext<0> to XLXI_224/regOut_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  plaintext_0_IBUF (plaintext_0_IBUF)
+     FD:D                      0.268          XLXI_224/regOut_0
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 64 / 64
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            XLXI_225/regOut_0 (FF)
+  Destination:       ciphertext<0> (PAD)
+  Source Clock:      Clk_50MHz rising
+
+  Data Path: XLXI_225/regOut_0 to ciphertext<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.357  XLXI_225/regOut_0 (XLXI_225/regOut_0)
+     OBUF:I->O                 3.169          ciphertext_0_OBUF (ciphertext<0>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 83.00 secs
-Total CPU time to Xst completion: 82.97 secs
+Total REAL time to Xst completion: 120.00 secs
+Total CPU time to Xst completion: 120.26 secs
  
 --> 
 
-Total memory usage is 492836 kilobytes
+Total memory usage is 525344 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   45 (   0 filtered)
+Number of warnings :   35 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

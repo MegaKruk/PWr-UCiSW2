@@ -1,4 +1,4 @@
--- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\schem.sch - Tue Apr 24 15:18:30 2018
+-- Vhdl test bench created from schematic C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\schem.sch - Tue May 08 13:40:52 2018
 --
 -- Notes: 
 -- 1) This testbench template has been automatically generated using types
@@ -23,28 +23,41 @@ ARCHITECTURE behavioral OF schem_schem_sch_tb IS
 
    COMPONENT schem
    PORT( key	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
+          Clk_50MHz	:	IN	STD_LOGIC; 
           plaintext	:	IN	STD_LOGIC_VECTOR (0 TO 63); 
           ciphertext	:	OUT	STD_LOGIC_VECTOR (0 TO 63));
    END COMPONENT;
 
    SIGNAL key	:	STD_LOGIC_VECTOR (0 TO 63);
+   SIGNAL Clk_50MHz	:	STD_LOGIC;
    SIGNAL plaintext	:	STD_LOGIC_VECTOR (0 TO 63);
    SIGNAL ciphertext	:	STD_LOGIC_VECTOR (0 TO 63);
+	
+	constant clock_period : time := 20 ns;
 
 BEGIN
 
+	clock_process :process
+   BEGIN
+		Clk_50MHz <= '0';
+		wait for clock_period/2;
+		Clk_50MHz <= '1';
+		wait for clock_period/2;
+   END PROCESS;
+
    UUT: schem PORT MAP(
 		key => key, 
+		Clk_50MHz =>Clk_50MHz, 
 		plaintext => plaintext, 
 		ciphertext => ciphertext
    );
 
 -- *** Test Bench - User Defined Section ***
-   tb : PROCESS
+   stim_process : PROCESS
    BEGIN
-		wait for 100 ns;
-		plaintext <= x"0000000000000000", x"8787878787878787" after 100 ns;
-		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after 100 ns;
+		wait for clock_period*10;
+		plaintext <= x"0000000000000000", x"8787878787878787" after clock_period*10;
+		key <= x"0123456789abcdef", x"0e329232ea6d0d73" after clock_period*10;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

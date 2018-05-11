@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.vhf,-w,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.vhf,-w,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot1.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.vhf,-w,C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/roundRot2.sch

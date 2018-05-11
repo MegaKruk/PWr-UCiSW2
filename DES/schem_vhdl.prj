@@ -14,6 +14,7 @@ vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\PC2.vhd"
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\pblockPerm.vhd"
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\expPerm.vhd"
+vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\syncReg.vhd"
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\roundRot2.vhf"
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\roundRot1.vhf"
 vhdl work "C:\Users\Filip\Documents\workspace\ISE Projects\UCiSW2 - Project\DES\revPerm.vhd"

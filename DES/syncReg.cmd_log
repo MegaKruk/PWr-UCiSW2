@@ -1,0 +1,2 @@
+vhdtdtfi -lib work syncReg.vhd -prj DES -o syncReg.spl -module syncReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e syncReg.spl {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/syncReg.sym} 

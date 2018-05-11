@@ -1,0 +1,26 @@
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           184 out of   9,312    1%
+  Number of 4 input LUTs:             6,272 out of   9,312   67%
+Logic Distribution:
+  Number of occupied Slices:          3,217 out of   4,656   69%
+    Number of Slices containing only related logic:   3,217 out of   3,217 100%
+    Number of Slices containing unrelated logic:          0 out of   3,217   0%
+  Total Number of 4 input LUTs:       6,272 out of   9,312   67%
+  Number of bonded IOBs:                185 out of     232   79%
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Average Fanout of Non-Clock Nets:                5.00
+
+Peak Memory Usage:  401 MB
+
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net Clk | SETUP       |         N/A|    77.975ns|     N/A|           0
+  _50MHz_BUFGP                              | HOLD        |     3.461ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------

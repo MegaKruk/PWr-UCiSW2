@@ -1,5 +1,1 @@
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sch} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sch} 
 xst -intstyle ise -ifn "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.xst" -ofn "C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.syr" 
-sch2sym -intstyle ise -family spartan3e -refsym schem {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sch} {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sym} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl schem_drc.vhf -w {C:/Users/Filip/Documents/workspace/ISE Projects/UCiSW2 - Project/DES/schem.sch} 
